@@ -112,12 +112,12 @@ export const ContactForm = (data) => {
           </Form.Group>
         </div>
         <Form.Group controlId="exampleForm.ControlTextarea1">
-          <Form.Label>{footerText.message}</Form.Label>
+          <Form.Label>{footerText.formessage}</Form.Label>
           <Form.Control
             as="textarea"
             rows={3}
             name='message'
-            placeholder={footerText.message}
+            placeholder={footerText.formessage}
             // ref={register()}
             maxLength='500'
             {...register('message')}

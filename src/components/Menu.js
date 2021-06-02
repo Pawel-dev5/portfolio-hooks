@@ -27,14 +27,12 @@ export const Menu = (props) => {
                         <ScrollLink
                             className="smoothscroll"
                             smooth={true}
-                            duration={500}
+                            duration={100}
                             to={item.href}
                             href={item.href}
                             key={id}
                         >
                             {item.name}
-                            {/* <Nav.Link href={item.href} key={id}>{item.name}</Nav.Link> */}
-
                         </ScrollLink>
                     )
                 })}

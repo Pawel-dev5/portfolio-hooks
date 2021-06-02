@@ -34,7 +34,7 @@ export const Footer = (data) => {
                         <ScrollLink
                             className="smoothscroll"
                             smooth={true}
-                            duration={500}
+                            duration={100}
                             to="home"
                         >
                             <FontAwesomeIcon className="icon-up-open" icon={faChevronUp} />
@@ -45,7 +45,7 @@ export const Footer = (data) => {
             </div>
         )
     } else return (
-        <div className="container">
+        <div className="loader-container">
           <div className="loader"></div>
         </div>
       );

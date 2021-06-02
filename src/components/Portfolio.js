@@ -1,17 +1,16 @@
 import React, { useState } from "react";
-import PortfolioGrid from "./PortfolioGrid";
+import {PortfolioGrid} from "./PortfolioGrid";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button'
 
-export default function Portfolio2(props) {
+export const Portfolio = (props) => {
   const {
     data
   } = props;
-  const all = "all";
-  const [filters, setFilters] = useState(all);
+  const [filters, setFilters] = useState("all");
   const filterAll = () => { setFilters("all") }
   const filterReact = () => { setFilters("react") }
   const filterOther = () => { setFilters("others") }
@@ -37,7 +36,7 @@ export default function Portfolio2(props) {
       </Container>
     );
   } else return (
-    <div className="container">
+    <div className="loader-container">
       <div className="loader"></div>
     </div>
   );

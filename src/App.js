@@ -3,7 +3,9 @@ import './App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Menu } from './components/Menu';
 import { Footer } from './components/Footer';
-import Portfolio from './components/Portfolio';
+import { Portfolio } from './components/Portfolio';
+import {Header} from './components/Header'
+
 const API = './resumeData.json';
 
 function App() {
@@ -44,16 +46,17 @@ function App() {
 
   if (translateData.length === 0) {
     return (
-      <div className="container">
+      <div className="loader-container">
         <div className="loader"></div>
       </div>
     );
   } else return (
     <div className="App">
-    <Menu className="container" data={translateData.main} toggleLang={toggleLang} />
-    <Portfolio data={translateData.portfolio} />
-    <Footer className="container" data={translateData} />
-  </div>
+      <Menu className="container" data={translateData.main} toggleLang={toggleLang} />
+      <Header data={translateData.main}/>
+      <Portfolio data={translateData.portfolio} />
+      <Footer className="container" data={translateData} />
+    </div>
   )
 }
 export default App;

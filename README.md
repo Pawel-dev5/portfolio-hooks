@@ -1,3 +1,15 @@
+## Used libraries
+    bootstrap,
+    emailjs-com,
+    gulp,
+    gulp-sourcemaps,
+    create-react-app,
+    react-google-recaptcha,
+    react-hook-form,
+    react-scripts,
+    react-scroll,
+    hooks
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

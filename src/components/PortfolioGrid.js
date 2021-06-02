@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-function PortfolioGrid(props) {
+export const PortfolioGrid = (props) => {
     const {
         portfolio,
         filters
@@ -74,8 +74,7 @@ function PortfolioGrid(props) {
                 </Container>
             </>
         )
-    } else return <div className="container">
+    } else return <div className="loader-container">
         <div className="loader"></div>
     </div>
 }
-export default PortfolioGrid;
