@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "react-bootstrap";
+import Button  from "react-bootstrap/Button";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -14,18 +14,20 @@ function PortfolioGrid(props) {
     if (dataa.length !== 0) {
         return (
             <>
-                <Container>
+                <Container key="11232342">
                     <Row>
                         <Col className="portfolio-box">
                             {dataa.map((pro, index) => {
                                 const projectImage = 'images/portfolio/' + pro.image;
                                 const i = index + .1;
+                                const j = index + 100.1;
+                                const g = j * 2.5;
                                 if (pro.length !== 0) {
                                     return (
                                         <>
-                                            {pro.category.filter(p => p.includes(filters)).map((filteredName) => (
+                                            {pro.category.filter(p => p.includes(filters)).map(() => (
                                                 <div>
-                                                    <Container className="portfolio-item">
+                                                    <Container className="portfolio-item" key={j}>
                                                         <Row className="item-wrap card">
                                                             <Col>
                                                                 <a href={pro.url} title={pro.title} target="_blank" rel="noopener noreferrer">
@@ -40,7 +42,7 @@ function PortfolioGrid(props) {
                                                             </Col>
                                                         </Row>
                                                     </Container>
-                                                    <Container>
+                                                    <Container key={g}>
                                                         <Row>
                                                             <Col className="btn-port-box">
                                                                 <Button className="button-portfolio" href={pro.git} key={index} target="_blank" rel="noopener noreferrer">

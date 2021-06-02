@@ -1,0 +1,20 @@
+form {
+  max-width: 600px;
+}
+div[role="alert"] {
+  color: red;
+}
+.message-chars-left {
+  width: 600px;
+  margin: auto;
+  text-align: left;
+}
+.contact-form,
+.form-container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}

@@ -4,6 +4,7 @@ import PortfolioGrid from "./PortfolioGrid";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Button from 'react-bootstrap/Button'
 
 export default function Portfolio2(props) {
   const {
@@ -23,10 +24,10 @@ export default function Portfolio2(props) {
           <Col className="portfolio-container">
             <h3>{data.title}</h3>
             <div className="btn-group" role="group" aria-label="Basic example">
-              <button type="button" className="btn btn-secondary" onClick={filterAll}>All</button>
-              <button type="button" className="btn btn-secondary" onClick={filterReact}>React</button>
-              <button type="button" className="btn btn-secondary" onClick={filterWord}>Wordpress</button>
-              <button type="button" className="btn btn-secondary" onClick={filterOther}>Inne</button>
+              <Button type="button" className="btn btn-secondary" onClick={filterAll}>All</Button>
+              <Button type="button" className="btn btn-secondary" onClick={filterReact}>React</Button>
+              <Button type="button" className="btn btn-secondary" onClick={filterWord}>Wordpress</Button>
+              <Button type="button" className="btn btn-secondary" onClick={filterOther}>Inne</Button>
             </div>
             <div id="portfolio-wrapper" className="container-box col-sm">
               <PortfolioGrid filters={filters} portfolio={data} />

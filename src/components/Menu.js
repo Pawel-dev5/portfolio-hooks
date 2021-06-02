@@ -29,8 +29,12 @@ export const Menu = (props) => {
                             smooth={true}
                             duration={500}
                             to={item.href}
+                            href={item.href}
+                            key={id}
                         >
-                            <Nav.Link href={item.href} key={id}>{item.name}</Nav.Link>
+                            {item.name}
+                            {/* <Nav.Link href={item.href} key={id}>{item.name}</Nav.Link> */}
+
                         </ScrollLink>
                     )
                 })}

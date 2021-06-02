@@ -3,7 +3,7 @@ import './App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Menu } from './components/Menu';
 import { Footer } from './components/Footer';
-import Portfolio2 from './components/Portfolio';
+import Portfolio from './components/Portfolio';
 const API = './resumeData.json';
 
 function App() {
@@ -51,7 +51,7 @@ function App() {
   } else return (
     <div className="App">
     <Menu className="container" data={translateData.main} toggleLang={toggleLang} />
-    <Portfolio2 data={translateData.portfolio} />
+    <Portfolio data={translateData.portfolio} />
     <Footer className="container" data={translateData} />
   </div>
   )
