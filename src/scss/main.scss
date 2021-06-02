@@ -1,5 +1,7 @@
-$myColor: red;
-
-h1 {
-  color: $myColor;
-}
+@import "generic/reset";
+@import 'settings/general';
+@import "settings/variables";
+@import "elements/nav";
+@import 'elements/footer';
+@import 'elements/load';
+@import 'elements/portfolio';

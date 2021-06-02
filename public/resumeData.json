@@ -1,0 +1,538 @@
+{
+  "PL": {
+    "main": {
+      "icon": "./images/pl.png",
+      "name": "Paweł Nowecki",
+      "occupation": "Junior Frontend Developerem",
+      "description": " obecnie zatrudniony w ",
+      "employer": "Agencji Hagen",
+      "jobDescription": "Senior Account Executive",
+      "image": "profilepic.jpg",
+      "bio": "Jestem Junior Frontend Developerem, obecnie zatrudniony w Agencji Hagen gdzie pracuje jako Senior Account Executive przy zarządzaniu projektami IT, głównie aplikacji webowych. Prowadzę działalność gospodarczą i poszukuję nowych projektów.\nPrywatnie jestem pasjonatem wspinania skałkowego i wysokogórskiego zarówno latem jak i zimą. Interesuję się także piłką nożną, nowymi technologiami oraz motoryzacją.",
+      "contactmessage": "Have a project for me? Think I'd be a good fit for your team? I'd love to hear from you, give me a shout by email or by using the form below if you'd like to get in contact with me.",
+      "email": "p.nowecki@gmail.com",
+      "phone": "791893867",
+      "address": {
+        "city": "Warszawa",
+        "country": "Polska"
+      },
+      "website": "https://pawel-dev5.github.io/",
+      "resumedownload": "https://drive.google.com/file/d/1lxdlStYPmAqSzIvYhrrF1oxdPFWg7S0C/view?usp=sharing",
+      "social": [
+        {
+          "name": "github",
+          "url": "https://github.com/Pawel-dev5/",
+          "icon": "faGithub"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/pawe%C5%82-nowecki/",
+          "icon": "faCoffee"
+        },
+        {
+          "name": "facebook",
+          "url": "http://facebook.com/p.nowecki",
+          "icon": "faCoffee"
+        }
+      ]
+    },
+    "resume": {
+      "skillmessage1": "I'm a tinkerer and am always interested in playing around with new technologies but these are the ones that have really won me over",
+      "skillmessage": "...",
+      "education": [
+        {
+          "school": "Uczelnia Łazarskiego",
+          "degree": "Studia licencjackie, Zarządzanie i marketing, marketing interaktywny",
+          "graduated": "2016-10 - 2019-07",
+          "description": ""
+        }
+      ],
+      "certificates": [
+        {
+          "company": "JavaScript developer: React",
+          "title": "Coders Lab",
+          "years": "Wrzesień 2020",
+          "description": "JavaScript \nReact \nReactHooks\nReact router\nJSX\nES6\nJSON server\nAPI\nFetch\nState Klasowo\nBabel\nBootstrap\nFirebase\nWebpack\nSass\nRWD\nSystem kontroli wersji GIT \nHTML i CSS \nGulp\nNPM i Node JS\nMailing\nAnimacje CSS\nObsługa linuxa"
+        },
+        {
+          "company": "Scrum Master",
+          "title": "Coders Lab",
+          "years": "Wrzesień 2020",
+          "description": "Scrum\nAgile\nGitHub\nGitflow\nTrello\nJira"
+        },
+        {
+          "company": "TOEIC English B2 Certificate",
+          "title": "Educational Testing Service (ETS) Global BV Sp. z o.o",
+          "years": "Maj 2017",
+          "description": ""
+        }
+      ],
+      "work": [
+        {
+          "company": "Senior Account Executive",
+          "title": "Agencja Hagen, Warszawa",
+          "years": "05.2021 - obecnie",
+          "description": "Zarządzanie i realizacja projektów aplikacji webowych dla:\nBNP Paribas\nHouse of Skills"
+        },
+        {
+          "company": "Account Executive",
+          "title": "Agencja Hagen, Warszawa",
+          "years": "11.2019 - 04.2021",
+          "description": "Zarządzanie i realizacja projektów aplikacji webowych dla:\nBNP Paribas\nHouse of Skills\nMeetfaces"
+        },
+        {
+          "company": "Account Executive",
+          "title": "Wisefriends, Warszawa",
+          "years": "04.2019 - 10.2019",
+          "description": "Zarządzanie i realizacja projektów aplikacji webowych dla:\nEurocash\nOrange\nAdidas\nCoty\nEssilor\nOpel\nReprise Digital"
+        },
+        {
+          "company": "Account Executive",
+          "title": "Mint Media, Warszawa",
+          "years": "08.2019 - 09.2019",
+          "description": "Zarządzanie i realizacja projektów aplikacji webowych dla:\nPhilips\nMaspex\nCukiernia Sowa\nMillo Home"
+        },
+        {
+          "company": "Junior Account Executive",
+          "title": "Wisefriends, Warszawa",
+          "years": "01.2017 - 03.2019",
+          "description": "Zarządzanie i realizacja projektów aplikacji webowych dla:\nOrange\nCoty\nGeberit\nPhilip Morris Internacional IQOS"
+        }
+      ],
+      "skills": [
+        {
+          "name": "HTML5",
+          "description": "",
+          "image": "html.png"
+        },
+        {
+          "name": "CSS3",
+          "description": "",
+          "image": "css3.jpg"
+        },
+        {
+          "name": "JavaScript",
+          "description": "",
+          "image": "JS.png"
+        },
+
+        {
+          "name": "React",
+          "description": "",
+          "image": "react.jpg"
+        },
+        {
+          "name": "Sass",
+          "description": "",
+          "image": "sass.png"
+        }
+      ],
+      "skills2": [
+        {
+          "name": "Git",
+          "description": "",
+          "image": "git.jpg"
+        },
+        {
+          "name": "Webpack",
+          "description": "",
+          "image": "webpack.png"
+        },
+        {
+          "name": "Node JS",
+          "description": "",
+          "image": "node.jpg"
+        },
+        {
+          "name": "Firebase",
+          "description": "",
+          "image": "firebase.png"
+        },
+        {
+          "name": "Jira",
+          "description": "",
+          "image": "jira.png"
+        }
+      ],
+      "skills3": [
+        {
+          "name": "Wordpress",
+          "description": "",
+          "image": "worepress.png"
+        },
+        {
+          "name": "Bootstrap",
+          "description": "",
+          "image": "bootstrap.jpg"
+        },
+        {
+          "name": "REST API",
+          "description": "",
+          "image": "api.jpg"
+        },
+        {
+          "name": "Analytics",
+          "description": "",
+          "image": "analytics.png"
+        },
+        {
+          "name": "Trello",
+          "description": "",
+          "image": "trello.jpg"
+        }
+      ]
+    },
+    "portfolio": {
+      "title": "Sprawdź moje projekty",
+      "projects": [
+        {
+          "title": "Oddam w Dobre ręce",
+          "description": "Strona do oddawania rzeczy potrzebującym z możliwością utworzenia konta i zalogowania. Na stronie dostępne są dwa formularze, jeden kontaktowy, a drugi dostępny dopiero po zalogowaniu do oddawania rzeczy.\nWykorzystane technologie:\nReact\nJavaScipt\nScss\nFirebase\nWebpack\nReact Hooks",
+          "image": "oddamwdobrerece.png",
+          "url": "https://oddamwdobrerece.netlify.app/",
+          "git": "https://github.com/Pawel-dev5/oddamwdoberece/",
+          "category": ["all", "frontend", "react"]
+        },
+        {
+          "title": "To Do App",
+          "description": "Aplikacja listy zadań do zrobienia. Dodawanie zadań z kategorią oraz priorytetem, zmiana statusu zadania, Drop&Drag, export PDF. Instrukcja korzystania zrobiona z React Joyride. Wykorzystane technologie:\nReact\nReact Hooks\nJavaScript\nBootstrap\njsPDF\nReact Joyride",
+          "image": "ToDoApp.jpg",
+          "url": "https://myy-todoapp.netlify.app/",
+          "git": "https://github.com/Pawel-dev5/to-do-aplication",
+          "category": ["all", "react"]
+        },
+        {
+          "title": "Sklep internetowy Choinki z dowozem",
+          "description": "Sklep internetowy oparty na Worpress i WooCommerce\nWykorzystane technologie:\nWordpress\nWooCommerce\nGoogle Analytics\nRWD\nCSS3",
+          "image": "choinki.jpg",
+          "url": "https://choinkizdowozem.pl/",
+          "git": "https://github.com/Pawel-dev5/",
+          "category": ["all", "frontend", "wordpress"]
+        },
+        {
+          "title": "Finlux Biuro rachunkowe",
+          "description": "Strona biura rachunkowego z blogiem zarządzanym z poziomu CMSa, przygotowana na postawie szablonu Wordpress.\nWykorzystane technologie:\nCSS3\nWordpress plugins\nElementor\nGoogle Analytics\nRWD",
+          "image": "finlux1.png",
+          "url": "https://finlux.com.pl/",
+          "git": "https://github.com/Pawel-dev5/",
+          "category": ["all", "frontend", "wordpress"]
+        },
+        {
+          "title": "Portfolio",
+          "description": "Strona na której właśnie się znajdujesz. Wykorzystane technologie:\nReact\nJavaScript\nHTML\nCSS3\nRWD\nWebpack\nReact Scroll\nJSON",
+          "image": "Portfolio.png",
+          "url": "https://pawel-nowecki-portfolio.netlify.app/",
+          "git": "https://github.com/Pawel-dev5/portfolio/",
+          "category": ["all", "react"]
+        },
+        {
+          "title": "Wyszukiwarka książek API Google",
+          "description": "Wyszukiwarka książek połączona z API Google Wykorzystane technologie:\nReact\nJavaScript\nHTML\nCSS3\nFetch API\nWebpack\nReact Modal\nJSON",
+          "image": "wyszukiwarka.jpg",
+          "url": "https://wyszukiwarka-ksiazek.netlify.app/",
+          "git": "https://github.com/Pawel-dev5/devdeliver",
+          "category": ["all", "frontend", "react"]
+        },
+        {
+          "title": "BestShop",
+          "description": "Desktopowy layout sklepu internetowego\nWykorzystane technologie:\nHTML\nCSS3",
+          "image": "BestShop.png",
+          "url": "https://best-shop-layout-desktop.netlify.app/",
+          "git": "https://github.com/Pawel-dev5/BestShop",
+          "category": ["all", "others"]
+        },
+        {
+          "title": "Newsletter HOS",
+          "description": "Newsletter przygotowywany na potrzeby cotygodniowych mailingów dla firmy House of Skills\nWykorzystane technologie:\nHTML\nCSS",
+          "image": "hos.jpg",
+          "url": "https://mailing-hos.netlify.app/",
+          "git": "https://github.com/Pawel-dev5/Mailing-HOS",
+          "category": ["all", "others"]
+        },
+        {
+          "title": "Newsletter wykończenia mieszkań",
+          "description": "Wykorzystane technologie:\nHTML\nCSS",
+          "image": "mailingMieszkania.png",
+          "url": "https://newsletter-wykonczenia-mieszkan.netlify.app/",
+          "git": "https://github.com/Pawel-dev5/Mailing-wykonczenia-mieszkan",
+          "category": ["all", "others"]
+        }
+      ]
+    },
+    "footer": {
+      "title": "Skontaktuj się ze mną wypełniając formularz!",
+      "name": "Imię",
+      "email": "Adres email",
+      "message": "Wiadomość",
+      "send": "Wyślij"
+    }
+  },
+  "EN": {
+    "main": {
+      "icon": "./images/en.png",
+      "name": "Paweł Nowecki",
+      "occupation": "Junior Frontend Developerem",
+      "description": "ANGIELSKI!!!!!!!!!!!!!!!!!!",
+      "employer": "Agencji Hagen",
+      "jobDescription": "Senior Account Executive",
+      "image": "profilepic.jpg",
+      "bio": "Jestem Junior Frontend Developerem, obecnie zatrudniony w Agencji Hagen gdzie pracuje jako Senior Account Executive przy zarządzaniu projektami IT, głównie aplikacji webowych. Prowadzę działalność gospodarczą i poszukuję nowych projektów.\nPrywatnie jestem pasjonatem wspinania skałkowego i wysokogórskiego zarówno latem jak i zimą. Interesuję się także piłką nożną, nowymi technologiami oraz motoryzacją.",
+      "contactmessage": "Have a project for me? Think I'd be a good fit for your team? I'd love to hear from you, give me a shout by email or by using the form below if you'd like to get in contact with me.",
+      "email": "p.nowecki@gmail.com",
+      "phone": "791893867",
+      "address": {
+        "city": "Warszawa",
+        "country": "Polska"
+      },
+      "website": "https://pawel-dev5.github.io/",
+      "resumedownload": "https://drive.google.com/file/d/1lxdlStYPmAqSzIvYhrrF1oxdPFWg7S0C/view?usp=sharing",
+      "social": [
+        {
+          "name": "github",
+          "url": "https://github.com/Pawel-dev5/",
+          "icon": "faCoffee"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/pawe%C5%82-nowecki/",
+          "icon": "faCoffee"
+        },
+        {
+          "name": "facebook",
+          "url": "http://facebook.com/p.nowecki",
+          "icon": "faCoffee"
+        }
+      ]
+    },
+    "resume": {
+      "skillmessage1": "I'm a tinkerer and am always interested in playing around with new technologies but these are the ones that have really won me over",
+      "skillmessage": "...",
+      "education": [
+        {
+          "school": "Uczelnia Łazarskiego",
+          "degree": "Studia licencjackie, Zarządzanie i marketing, marketing interaktywny",
+          "graduated": "2016-10 - 2019-07",
+          "description": ""
+        }
+      ],
+      "certificates": [
+        {
+          "company": "JavaScript developer: React",
+          "title": "Coders Lab",
+          "years": "Wrzesień 2020",
+          "description": "JavaScript \nReact \nReactHooks\nReact router\nJSX\nES6\nJSON server\nAPI\nFetch\nState Klasowo\nBabel\nBootstrap\nFirebase\nWebpack\nSass\nRWD\nSystem kontroli wersji GIT \nHTML i CSS \nGulp\nNPM i Node JS\nMailing\nAnimacje CSS\nObsługa linuxa"
+        },
+        {
+          "company": "Scrum Master",
+          "title": "Coders Lab",
+          "years": "Wrzesień 2020",
+          "description": "Scrum\nAgile\nGitHub\nGitflow\nTrello\nJira"
+        },
+        {
+          "company": "TOEIC English B2 Certificate",
+          "title": "Educational Testing Service (ETS) Global BV Sp. z o.o",
+          "years": "Maj 2017",
+          "description": ""
+        }
+      ],
+      "work": [
+        {
+          "company": "Senior Account Executive",
+          "title": "Agencja Hagen, Warszawa",
+          "years": "05.2021 - obecnie",
+          "description": "Zarządzanie i realizacja projektów aplikacji webowych dla:\nBNP Paribas\nHouse of Skills"
+        },
+        {
+          "company": "Account Executive",
+          "title": "Agencja Hagen, Warszawa",
+          "years": "11.2019 - 04.2021",
+          "description": "Zarządzanie i realizacja projektów aplikacji webowych dla:\nBNP Paribas\nHouse of Skills\nMeetfaces"
+        },
+        {
+          "company": "Account Executive",
+          "title": "Wisefriends, Warszawa",
+          "years": "04.2019 - 10.2019",
+          "description": "Zarządzanie i realizacja projektów aplikacji webowych dla:\nEurocash\nOrange\nAdidas\nCoty\nEssilor\nOpel\nReprise Digital"
+        },
+        {
+          "company": "Account Executive",
+          "title": "Mint Media, Warszawa",
+          "years": "08.2019 - 09.2019",
+          "description": "Zarządzanie i realizacja projektów aplikacji webowych dla:\nPhilips\nMaspex\nCukiernia Sowa\nMillo Home"
+        },
+        {
+          "company": "Junior Account Executive",
+          "title": "Wisefriends, Warszawa",
+          "years": "01.2017 - 03.2019",
+          "description": "Zarządzanie i realizacja projektów aplikacji webowych dla:\nOrange\nCoty\nGeberit\nPhilip Morris Internacional IQOS"
+        }
+      ],
+      "skills": [
+        {
+          "name": "HTML5",
+          "description": "",
+          "image": "html.png"
+        },
+        {
+          "name": "CSS3",
+          "description": "",
+          "image": "css3.jpg"
+        },
+        {
+          "name": "JavaScript",
+          "description": "",
+          "image": "JS.png"
+        },
+
+        {
+          "name": "React",
+          "description": "",
+          "image": "react.jpg"
+        },
+        {
+          "name": "Sass",
+          "description": "",
+          "image": "sass.png"
+        }
+      ],
+      "skills2": [
+        {
+          "name": "Git",
+          "description": "",
+          "image": "git.jpg"
+        },
+        {
+          "name": "Webpack",
+          "description": "",
+          "image": "webpack.png"
+        },
+        {
+          "name": "Node JS",
+          "description": "",
+          "image": "node.jpg"
+        },
+        {
+          "name": "Firebase",
+          "description": "",
+          "image": "firebase.png"
+        },
+        {
+          "name": "Jira",
+          "description": "",
+          "image": "jira.png"
+        }
+      ],
+      "skills3": [
+        {
+          "name": "Wordpress",
+          "description": "",
+          "image": "worepress.png"
+        },
+        {
+          "name": "Bootstrap",
+          "description": "",
+          "image": "bootstrap.jpg"
+        },
+        {
+          "name": "REST API",
+          "description": "",
+          "image": "api.jpg"
+        },
+        {
+          "name": "Analytics",
+          "description": "",
+          "image": "analytics.png"
+        },
+        {
+          "name": "Trello",
+          "description": "",
+          "image": "trello.jpg"
+        }
+      ]
+    },
+    "portfolio": {
+      "title": "Check out my projects",
+      "projects": [
+        {
+          "title": "Oddam w Dobre ręce",
+          "description": "Strona do oddawania rzeczy potrzebującym z możliwością utworzenia konta i zalogowania. Na stronie dostępne są dwa formularze, jeden kontaktowy, a drugi dostępny dopiero po zalogowaniu do oddawania rzeczy.\nWykorzystane technologie:\nReact\nJavaScipt\nScss\nFirebase\nWebpack\nReact Hooks",
+          "image": "oddamwdobrerece.png",
+          "url": "https://oddamwdobrerece.netlify.app/",
+          "git": "https://github.com/Pawel-dev5/oddamwdoberece/",
+          "category": ["all", "frontend", "react"]
+        },
+        {
+          "title": "To Do App",
+          "description": "Aplikacja listy zadań do zrobienia. Dodawanie zadań z kategorią oraz priorytetem, zmiana statusu zadania, Drop&Drag, export PDF. Instrukcja korzystania zrobiona z React Joyride. Wykorzystane technologie:\nReact\nReact Hooks\nJavaScript\nBootstrap\njsPDF\nReact Joyride",
+          "image": "ToDoApp.jpg",
+          "url": "https://myy-todoapp.netlify.app/",
+          "git": "https://github.com/Pawel-dev5/to-do-aplication",
+          "category": ["all", "react"]
+        },
+        {
+          "title": "Sklep internetowy Choinki z dowozem",
+          "description": "Sklep internetowy oparty na Worpress i WooCommerce\nWykorzystane technologie:\nWordpress\nWooCommerce\nGoogle Analytics\nRWD\nCSS3",
+          "image": "choinki.jpg",
+          "url": "https://choinkizdowozem.pl/",
+          "git": "https://github.com/Pawel-dev5/",
+          "category": ["all", "frontend", "wordpress"]
+        },
+        {
+          "title": "Finlux Biuro rachunkowe",
+          "description": "Strona biura rachunkowego z blogiem zarządzanym z poziomu CMSa, przygotowana na postawie szablonu Wordpress.\nWykorzystane technologie:\nCSS3\nWordpress plugins\nElementor\nGoogle Analytics\nRWD",
+          "image": "finlux1.png",
+          "url": "https://finlux.com.pl/",
+          "git": "https://github.com/Pawel-dev5/",
+          "category": ["all", "frontend", "wordpress"]
+        },
+        {
+          "title": "Portfolio",
+          "description": "Strona na której właśnie się znajdujesz. Wykorzystane technologie:\nReact\nJavaScript\nHTML\nCSS3\nRWD\nWebpack\nReact Scroll\nJSON",
+          "image": "Portfolio.png",
+          "url": "https://pawel-nowecki-portfolio.netlify.app/",
+          "git": "https://github.com/Pawel-dev5/portfolio/",
+          "category": ["all", "react"]
+        },
+        {
+          "title": "Wyszukiwarka książek API Google",
+          "description": "Wyszukiwarka książek połączona z API Google Wykorzystane technologie:\nReact\nJavaScript\nHTML\nCSS3\nFetch API\nWebpack\nReact Modal\nJSON",
+          "image": "wyszukiwarka.jpg",
+          "url": "https://wyszukiwarka-ksiazek.netlify.app/",
+          "git": "https://github.com/Pawel-dev5/devdeliver",
+          "category": ["all", "frontend", "react"]
+        },
+        {
+          "title": "BestShop",
+          "description": "Desktopowy layout sklepu internetowego\nWykorzystane technologie:\nHTML\nCSS3",
+          "image": "BestShop.png",
+          "url": "https://best-shop-layout-desktop.netlify.app/",
+          "git": "https://github.com/Pawel-dev5/BestShop",
+          "category": ["all", "others"]
+        },
+        {
+          "title": "Newsletter HOS",
+          "description": "Newsletter przygotowywany na potrzeby cotygodniowych mailingów dla firmy House of Skills\nWykorzystane technologie:\nHTML\nCSS",
+          "image": "hos.jpg",
+          "url": "https://mailing-hos.netlify.app/",
+          "git": "https://github.com/Pawel-dev5/Mailing-HOS",
+          "category": ["all", "others"]
+        },
+        {
+          "title": "Newsletter wykończenia mieszkań",
+          "description": "Wykorzystane technologie:\nHTML\nCSS",
+          "image": "mailingMieszkania.png",
+          "url": "https://newsletter-wykonczenia-mieszkan.netlify.app/",
+          "git": "https://github.com/Pawel-dev5/Mailing-wykonczenia-mieszkan",
+          "category": ["all", "others"]
+        }
+      ]
+    },
+    "footer": {
+      "title": "Contact with me!",
+      "name": "Name",
+      "email": "Email adress",
+      "message": "Message",
+      "send": "Send"
+    }
+  }
+}
