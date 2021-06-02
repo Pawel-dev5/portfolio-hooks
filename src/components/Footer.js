@@ -1,8 +1,8 @@
 import { ContactForm } from './ContactForm';
 import Scroll from "react-scroll";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronUp, faCoffee } from '@fortawesome/free-solid-svg-icons';
-import { fab, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 export const Footer = (data) => {
     const ScrollLink = Scroll.Link;
@@ -15,9 +15,9 @@ export const Footer = (data) => {
                     <div>
                         <ContactForm data={footerData} />
                         <ul>
-                            {footerData.main.social.map(s => {
+                            {footerData.main.social.map((s, index) => {
                                 return (
-                                    <li>
+                                    <li key={index}>
                                         <a href={s.url}>
                                             {/* <FontAwesomeIcon className="fab fa-github"/> */}
 

@@ -12,6 +12,38 @@
       "contactmessage": "Have a project for me? Think I'd be a good fit for your team? I'd love to hear from you, give me a shout by email or by using the form below if you'd like to get in contact with me.",
       "email": "p.nowecki@gmail.com",
       "phone": "791893867",
+      "menu": [
+        {
+          "id": "1",
+          "name": "HOME",
+          "href": "home"
+        },
+        {
+          "id": "2",
+          "name": "O MNIE",
+          "href": "about-me"
+        },
+        {
+          "id": "3",
+          "name": "PRACA I EDUKACJA",
+          "href": "work"
+        },
+        {
+          "id": "4",
+          "name": "TECHNOLOGIE",
+          "href": "tech"
+        },
+        {
+          "id": "5",
+          "name": "PORTFOLIO",
+          "href": "portfolio"
+        },
+        {
+          "id": "6",
+          "name": "KONTAKT",
+          "href": "contact"
+        }
+      ],
       "address": {
         "city": "Warszawa",
         "country": "Polska"
@@ -186,6 +218,7 @@
       "title": "Sprawdź moje projekty",
       "projects": [
         {
+          "id": "1",
           "title": "Oddam w Dobre ręce",
           "description": "Strona do oddawania rzeczy potrzebującym z możliwością utworzenia konta i zalogowania. Na stronie dostępne są dwa formularze, jeden kontaktowy, a drugi dostępny dopiero po zalogowaniu do oddawania rzeczy.\nWykorzystane technologie:\nReact\nJavaScipt\nScss\nFirebase\nWebpack\nReact Hooks",
           "image": "oddamwdobrerece.png",
@@ -194,6 +227,7 @@
           "category": ["all", "frontend", "react"]
         },
         {
+          "id": "2",
           "title": "To Do App",
           "description": "Aplikacja listy zadań do zrobienia. Dodawanie zadań z kategorią oraz priorytetem, zmiana statusu zadania, Drop&Drag, export PDF. Instrukcja korzystania zrobiona z React Joyride. Wykorzystane technologie:\nReact\nReact Hooks\nJavaScript\nBootstrap\njsPDF\nReact Joyride",
           "image": "ToDoApp.jpg",
@@ -202,6 +236,7 @@
           "category": ["all", "react"]
         },
         {
+          "id": "3",
           "title": "Sklep internetowy Choinki z dowozem",
           "description": "Sklep internetowy oparty na Worpress i WooCommerce\nWykorzystane technologie:\nWordpress\nWooCommerce\nGoogle Analytics\nRWD\nCSS3",
           "image": "choinki.jpg",
@@ -210,6 +245,7 @@
           "category": ["all", "frontend", "wordpress"]
         },
         {
+          "id": "4",
           "title": "Finlux Biuro rachunkowe",
           "description": "Strona biura rachunkowego z blogiem zarządzanym z poziomu CMSa, przygotowana na postawie szablonu Wordpress.\nWykorzystane technologie:\nCSS3\nWordpress plugins\nElementor\nGoogle Analytics\nRWD",
           "image": "finlux1.png",
@@ -218,6 +254,7 @@
           "category": ["all", "frontend", "wordpress"]
         },
         {
+          "id": "5",
           "title": "Portfolio",
           "description": "Strona na której właśnie się znajdujesz. Wykorzystane technologie:\nReact\nJavaScript\nHTML\nCSS3\nRWD\nWebpack\nReact Scroll\nJSON",
           "image": "Portfolio.png",
@@ -226,6 +263,7 @@
           "category": ["all", "react"]
         },
         {
+          "id": "6",
           "title": "Wyszukiwarka książek API Google",
           "description": "Wyszukiwarka książek połączona z API Google Wykorzystane technologie:\nReact\nJavaScript\nHTML\nCSS3\nFetch API\nWebpack\nReact Modal\nJSON",
           "image": "wyszukiwarka.jpg",
@@ -234,6 +272,7 @@
           "category": ["all", "frontend", "react"]
         },
         {
+          "id": "7",
           "title": "BestShop",
           "description": "Desktopowy layout sklepu internetowego\nWykorzystane technologie:\nHTML\nCSS3",
           "image": "BestShop.png",
@@ -242,6 +281,7 @@
           "category": ["all", "others"]
         },
         {
+          "id": "8",
           "title": "Newsletter HOS",
           "description": "Newsletter przygotowywany na potrzeby cotygodniowych mailingów dla firmy House of Skills\nWykorzystane technologie:\nHTML\nCSS",
           "image": "hos.jpg",
@@ -250,6 +290,7 @@
           "category": ["all", "others"]
         },
         {
+          "id": "9",
           "title": "Newsletter wykończenia mieszkań",
           "description": "Wykorzystane technologie:\nHTML\nCSS",
           "image": "mailingMieszkania.png",
@@ -280,6 +321,38 @@
       "contactmessage": "Have a project for me? Think I'd be a good fit for your team? I'd love to hear from you, give me a shout by email or by using the form below if you'd like to get in contact with me.",
       "email": "p.nowecki@gmail.com",
       "phone": "791893867",
+      "menu": [
+        {
+          "id": "1",
+          "name": "HOME",
+          "href": "home"
+        },
+        {
+          "id": "2",
+          "name": "ABOUT ME",
+          "href": "about-me"
+        },
+        {
+          "id": "3",
+          "name": "WORK & EDUCATION",
+          "href": "work"
+        },
+        {
+          "id": "4",
+          "name": "TECHNOLOGIES",
+          "href": "tech"
+        },
+        {
+          "id": "5",
+          "name": "PORTFOLIO",
+          "href": "portfolio"
+        },
+        {
+          "id": "6",
+          "name": "CONTACT",
+          "href": "contact"
+        }
+      ],
       "address": {
         "city": "Warszawa",
         "country": "Polska"

@@ -74,7 +74,7 @@ export const ContactForm = (data) => {
   const messageCharsLeft = 500 - message.length;
 
   return (
-    <div className="form-container">
+    <div className="form-container" id="contact">
 
       <Form id='contact-form' onSubmit={handleSubmit(onSubmit)} action="?" method="POST">
         <input type='hidden' name='contact_number' value={contactNumber} />
