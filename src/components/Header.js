@@ -17,9 +17,9 @@ export const Header = (props) => {
                         <h4>{data.shortBio}</h4>
                         <hr />
                         <ul className="social">
-                            {data.social.map(item => {
+                            {data.social.map((item, index) => {
                                 return (
-                                    <li>
+                                    <li key={index}>
                                         <a href="">
                                             {item.name}
                                         </a>

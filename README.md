@@ -8,6 +8,7 @@
     react-hook-form,
     react-scripts,
     react-scroll,
+    react multi carousel,
     hooks
 
 # Getting Started with Create React App

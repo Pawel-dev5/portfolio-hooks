@@ -4,7 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Menu } from './components/Menu';
 import { Footer } from './components/Footer';
 import { Portfolio } from './components/Portfolio';
-import {Header} from './components/Header'
+import {Header} from './components/Header';
+import { Tech } from './components/Tech';
 
 const API = './resumeData.json';
 
@@ -54,6 +55,7 @@ function App() {
     <div className="App">
       <Menu className="container" data={translateData.main} toggleLang={toggleLang} />
       <Header data={translateData.main}/>
+      <Tech data={translateData.resume.skills}/>
       <Portfolio data={translateData.portfolio} />
       <Footer className="container" data={translateData} />
     </div>

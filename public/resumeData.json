@@ -148,23 +148,20 @@
           "description": "",
           "image": "JS.png"
         },
-
         {
           "name": "React",
           "description": "",
           "image": "react.jpg"
         },
         {
-          "name": "Sass",
-          "description": "",
-          "image": "sass.png"
-        }
-      ],
-      "skills2": [
-        {
           "name": "Git",
           "description": "",
           "image": "git.jpg"
+        },
+        {
+          "name": "Sass",
+          "description": "",
+          "image": "sass.png"
         },
         {
           "name": "Webpack",
@@ -185,9 +182,7 @@
           "name": "Jira",
           "description": "",
           "image": "jira.png"
-        }
-      ],
-      "skills3": [
+        },
         {
           "name": "Wordpress",
           "description": "",
@@ -458,23 +453,20 @@
           "description": "",
           "image": "JS.png"
         },
-
         {
           "name": "React",
           "description": "",
           "image": "react.jpg"
         },
         {
-          "name": "Sass",
-          "description": "",
-          "image": "sass.png"
-        }
-      ],
-      "skills2": [
-        {
           "name": "Git",
           "description": "",
           "image": "git.jpg"
+        },
+        {
+          "name": "Sass",
+          "description": "",
+          "image": "sass.png"
         },
         {
           "name": "Webpack",
@@ -495,9 +487,7 @@
           "name": "Jira",
           "description": "",
           "image": "jira.png"
-        }
-      ],
-      "skills3": [
+        },
         {
           "name": "Wordpress",
           "description": "",
