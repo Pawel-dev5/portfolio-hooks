@@ -1,6 +1,11 @@
 .tech {
   background-color: $background2;
   color: $background1;
+  text-align: center;
+  h3{
+      padding-top: 40px;
+      font-weight: 600;
+  }
 //   padding: 150px;
   div {
     //   display: flex;
@@ -13,4 +18,23 @@
           font-weight: 600;
       }
   }
+}
+.react-multi-carousel-track  {
+    // width: 600px ;
+    min-height: 300px;
+    // max-width: 400px;
+    align-items: center;
+    li {
+        align-items: center;
+        text-align: center;
+        max-width: 300px;
+    p {
+        margin: 20px;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    img {
+        max-width: 40%;
+    }
+    }
 }

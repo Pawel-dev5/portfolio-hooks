@@ -14,7 +14,7 @@ export const PortfolioGrid = (props) => {
     if (dataa.length !== 0) {
         return (
             <>
-                <Container key="11232342">
+                <Container>
                     <Row>
                         <Col className="portfolio-box">
                             {dataa.map((pro, index) => {
@@ -26,7 +26,7 @@ export const PortfolioGrid = (props) => {
                                     return (
                                         <>
                                             {pro.category.filter(p => p.includes(filters)).map(() => (
-                                                <div>
+                                                <div key={i}>
                                                     <Container className="portfolio-item" key={j}>
                                                         <Row className="item-wrap card">
                                                             <Col>
@@ -45,13 +45,13 @@ export const PortfolioGrid = (props) => {
                                                     <Container key={g}>
                                                         <Row>
                                                             <Col className="btn-port-box">
-                                                                <Button className="button-portfolio" href={pro.git} key={index} target="_blank" rel="noopener noreferrer">
+                                                                <Button className="button-portfolio" href={pro.git} target="_blank" rel="noopener noreferrer">
                                                                     {/* <i className="fa fa-github portfolio-icons"></i> */}
                                                                 GIT
                                                             </Button>
                                                             </Col>
                                                             <Col className="btn-port-box">
-                                                                <Button className="button-portfolio" href={pro.url} key={i} target="_blank" rel="noopener noreferrer" >
+                                                                <Button className="button-portfolio" href={pro.url} target="_blank" rel="noopener noreferrer" >
                                                                     {/* <i className="fa fa-eye portfolio-icons"></i> */}
                                                                 LIVE
                                                             </Button>

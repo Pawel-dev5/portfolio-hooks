@@ -9,7 +9,7 @@ export const Header = (props) => {
         data
     } = props;
     return (
-        <Container fluid="true" className="header-container">
+        <Container fluid="true" className="header-container" id="home">
             <Row>
                 <Col>
                     <div className="headet-txt-box">
@@ -20,7 +20,7 @@ export const Header = (props) => {
                             {data.social.map((item, index) => {
                                 return (
                                     <li key={index}>
-                                        <a href="">
+                                        <a href={item.url}>
                                             {item.name}
                                         </a>
                                     </li>

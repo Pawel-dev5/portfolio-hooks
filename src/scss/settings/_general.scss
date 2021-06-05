@@ -14,10 +14,7 @@ body {
   align-items: center;
   display: flex;
 }
-.container:nth-child(odd) {
+.App:nth-child(n + 1) {
   background-color: #2b2b2b;
-}
-.App:nth-child(3n + 1) {
-  background-color: #2b2b2b !important;
   color: #fff;
 }

@@ -30,7 +30,6 @@ function App() {
     fetch(`${API}`)
       .then(resp => resp.json())
       .then(data => {
-        console.log(data)
         if (data) {
           return (
             setData(data),
@@ -55,7 +54,7 @@ function App() {
     <div className="App">
       <Menu className="container" data={translateData.main} toggleLang={toggleLang} />
       <Header data={translateData.main}/>
-      <Tech data={translateData.resume.skills}/>
+      <Tech data={translateData.resume}/>
       <Portfolio data={translateData.portfolio} />
       <Footer className="container" data={translateData} />
     </div>

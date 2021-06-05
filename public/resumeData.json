@@ -1,7 +1,7 @@
 {
   "PL": {
     "main": {
-      "icon": "./images/pl.png",
+      "icon": "./images/en.png",
       "name": "Paweł Nowecki",
       "occupation": "Junior Frontend Developerem",
       "description": " obecnie zatrudniony w ",
@@ -132,83 +132,86 @@
           "description": "Zarządzanie i realizacja projektów aplikacji webowych dla:\nOrange\nCoty\nGeberit\nPhilip Morris Internacional IQOS"
         }
       ],
-      "skills": [
-        {
-          "name": "HTML5",
-          "description": "",
-          "image": "html.png"
-        },
-        {
-          "name": "CSS3",
-          "description": "",
-          "image": "css3.jpg"
-        },
-        {
-          "name": "JavaScript",
-          "description": "",
-          "image": "JS.png"
-        },
-        {
-          "name": "React",
-          "description": "",
-          "image": "react.jpg"
-        },
-        {
-          "name": "Git",
-          "description": "",
-          "image": "git.jpg"
-        },
-        {
-          "name": "Sass",
-          "description": "",
-          "image": "sass.png"
-        },
-        {
-          "name": "Webpack",
-          "description": "",
-          "image": "webpack.png"
-        },
-        {
-          "name": "Node JS",
-          "description": "",
-          "image": "node.jpg"
-        },
-        {
-          "name": "Firebase",
-          "description": "",
-          "image": "firebase.png"
-        },
-        {
-          "name": "Jira",
-          "description": "",
-          "image": "jira.png"
-        },
-        {
-          "name": "Wordpress",
-          "description": "",
-          "image": "worepress.png"
-        },
-        {
-          "name": "Bootstrap",
-          "description": "",
-          "image": "bootstrap.jpg"
-        },
-        {
-          "name": "REST API",
-          "description": "",
-          "image": "api.jpg"
-        },
-        {
-          "name": "Analytics",
-          "description": "",
-          "image": "analytics.png"
-        },
-        {
-          "name": "Trello",
-          "description": "",
-          "image": "trello.jpg"
-        }
-      ]
+      "skills": {
+        "title": "Technologie",
+        "items": [
+          {
+            "name": "HTML5",
+            "description": "",
+            "image": "html.png"
+          },
+          {
+            "name": "CSS3",
+            "description": "",
+            "image": "css3.jpg"
+          },
+          {
+            "name": "JavaScript",
+            "description": "",
+            "image": "JS.png"
+          },
+          {
+            "name": "React",
+            "description": "",
+            "image": "react.jpg"
+          },
+          {
+            "name": "Git",
+            "description": "",
+            "image": "git.jpg"
+          },
+          {
+            "name": "Sass",
+            "description": "",
+            "image": "sass.png"
+          },
+          {
+            "name": "Webpack",
+            "description": "",
+            "image": "webpack.png"
+          },
+          {
+            "name": "Node JS",
+            "description": "",
+            "image": "node.jpg"
+          },
+          {
+            "name": "Firebase",
+            "description": "",
+            "image": "firebase.png"
+          },
+          {
+            "name": "Jira",
+            "description": "",
+            "image": "jira.png"
+          },
+          {
+            "name": "Wordpress",
+            "description": "",
+            "image": "worepress.png"
+          },
+          {
+            "name": "Bootstrap",
+            "description": "",
+            "image": "bootstrap.jpg"
+          },
+          {
+            "name": "REST API",
+            "description": "",
+            "image": "api.jpg"
+          },
+          {
+            "name": "Analytics",
+            "description": "",
+            "image": "analytics.png"
+          },
+          {
+            "name": "Trello",
+            "description": "",
+            "image": "trello.jpg"
+          }
+        ]
+      }
     },
     "portfolio": {
       "title": "Sprawdź moje projekty",
@@ -306,7 +309,7 @@
   },
   "EN": {
     "main": {
-      "icon": "./images/en.png",
+      "icon": "./images/pl.png",
       "name": "Paweł Nowecki",
       "occupation": "Junior Frontend Developer",
       "description": " currently work in",
@@ -437,83 +440,86 @@
           "description": "Zarządzanie i realizacja projektów aplikacji webowych dla:\nOrange\nCoty\nGeberit\nPhilip Morris Internacional IQOS"
         }
       ],
-      "skills": [
-        {
-          "name": "HTML5",
-          "description": "",
-          "image": "html.png"
-        },
-        {
-          "name": "CSS3",
-          "description": "",
-          "image": "css3.jpg"
-        },
-        {
-          "name": "JavaScript",
-          "description": "",
-          "image": "JS.png"
-        },
-        {
-          "name": "React",
-          "description": "",
-          "image": "react.jpg"
-        },
-        {
-          "name": "Git",
-          "description": "",
-          "image": "git.jpg"
-        },
-        {
-          "name": "Sass",
-          "description": "",
-          "image": "sass.png"
-        },
-        {
-          "name": "Webpack",
-          "description": "",
-          "image": "webpack.png"
-        },
-        {
-          "name": "Node JS",
-          "description": "",
-          "image": "node.jpg"
-        },
-        {
-          "name": "Firebase",
-          "description": "",
-          "image": "firebase.png"
-        },
-        {
-          "name": "Jira",
-          "description": "",
-          "image": "jira.png"
-        },
-        {
-          "name": "Wordpress",
-          "description": "",
-          "image": "worepress.png"
-        },
-        {
-          "name": "Bootstrap",
-          "description": "",
-          "image": "bootstrap.jpg"
-        },
-        {
-          "name": "REST API",
-          "description": "",
-          "image": "api.jpg"
-        },
-        {
-          "name": "Analytics",
-          "description": "",
-          "image": "analytics.png"
-        },
-        {
-          "name": "Trello",
-          "description": "",
-          "image": "trello.jpg"
-        }
-      ]
+      "skills": {
+        "title": "Technologies",
+        "items": [
+          {
+            "name": "HTML5",
+            "description": "",
+            "image": "html.png"
+          },
+          {
+            "name": "CSS3",
+            "description": "",
+            "image": "css3.jpg"
+          },
+          {
+            "name": "JavaScript",
+            "description": "",
+            "image": "JS.png"
+          },
+          {
+            "name": "React",
+            "description": "",
+            "image": "react.jpg"
+          },
+          {
+            "name": "Git",
+            "description": "",
+            "image": "git.jpg"
+          },
+          {
+            "name": "Sass",
+            "description": "",
+            "image": "sass.png"
+          },
+          {
+            "name": "Webpack",
+            "description": "",
+            "image": "webpack.png"
+          },
+          {
+            "name": "Node JS",
+            "description": "",
+            "image": "node.jpg"
+          },
+          {
+            "name": "Firebase",
+            "description": "",
+            "image": "firebase.png"
+          },
+          {
+            "name": "Jira",
+            "description": "",
+            "image": "jira.png"
+          },
+          {
+            "name": "Wordpress",
+            "description": "",
+            "image": "worepress.png"
+          },
+          {
+            "name": "Bootstrap",
+            "description": "",
+            "image": "bootstrap.jpg"
+          },
+          {
+            "name": "REST API",
+            "description": "",
+            "image": "api.jpg"
+          },
+          {
+            "name": "Analytics",
+            "description": "",
+            "image": "analytics.png"
+          },
+          {
+            "name": "Trello",
+            "description": "",
+            "image": "trello.jpg"
+          }
+        ]
+      }
     },
     "portfolio": {
       "title": "Check out my projects",

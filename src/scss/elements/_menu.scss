@@ -1,7 +1,7 @@
-.navbar-expand {
-  -webkit-flex-direction: row-reverse;
-  flex-direction: row-reverse;
-}
+// .navbar-expand {
+//   -webkit-flex-direction: row-reverse;
+//   flex-direction: row-reverse;
+// }
 .navbar-nav {
   width: 100%;
   height: 100%;
@@ -20,4 +20,11 @@
     color:$background1;
     border-bottom: 2px solid black;
   }
+}
+.navbar > .container {
+  justify-content: flex-end !important;
+}
+.navbar-brand {
+  height: 45px;
+  margin-left: 20px;
 }
