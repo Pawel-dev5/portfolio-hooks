@@ -126,6 +126,7 @@ export const ContactForm = (data) => {
           <p className='message-chars-left'>{messageCharsLeft}</p>
         </Form.Group>
         <ReCAPTCHA
+        className="captcha-box"
           sitekey={CaptchaKey}
         // onChange={onChange}
         />

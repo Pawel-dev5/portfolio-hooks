@@ -18,7 +18,7 @@ export const AboutMe = (props) => {
                     <Col 
                     xs 
                     lg="2"
-                    className="aboutimg-box d-none d-sm-block"
+                    className="aboutimg-box d-none d-lg-block"
                      >
                         <img src={image} alt={data.name} />
                     </Col>
@@ -34,7 +34,7 @@ export const AboutMe = (props) => {
                                 <a href="tel:791-893-867">{data.phone}</a>
                                 <a href="mailto:p.nowecki@gmail.com">{data.email}</a>
                             </Container>
-                            <Container>
+                            <Container className="contact-button-box">
                                 <Button
                                     variant="outline-light"
                                 >
