@@ -1,6 +1,8 @@
 {
   "PL": {
     "main": {
+      "title": "O mnie",
+      "subtitle": "Dane kontaktowe",
       "icon": "./images/en.png",
       "name": "Paweł Nowecki",
       "occupation": "Junior Frontend Developerem",
@@ -8,10 +10,12 @@
       "employer": "Agencji Hagen",
       "jobDescription": "Senior Account Executive",
       "image": "profilepic.jpg",
-      "bio": "Jestem Junior Frontend Developerem, obecnie zatrudniony w Agencji Hagen gdzie pracuje jako Senior Account Executive przy zarządzaniu projektami IT, głównie aplikacji webowych. Prowadzę działalność gospodarczą i poszukuję nowych projektów.\nPrywatnie jestem pasjonatem wspinania skałkowego i wysokogórskiego zarówno latem jak i zimą. Interesuję się także piłką nożną, nowymi technologiami oraz motoryzacją.",
+      "biowork": "Jestem Junior Frontend Developerem, obecnie zatrudniony w Agencji Hagen gdzie pracuje jako Senior Account Executive przy zarządzaniu projektami IT, głównie aplikacji webowych. Prowadzę działalność gospodarczą i poszukuję nowych projektów.",
+      "biopriv": "Prywatniejestem pasjonatem wspinania skałkowego i wysokogórskiego, zarówno latem jak i zimą. Interesuję się również piłką nożną, nowymi technologiami oraz motoryzacją.",
       "shortBio": "Jestem Junior Frontend Developerem, obecnie zatrudniony w Agencji Hagen gdzie pracuje jako Senior Account Executive przy zarządzaniu projektami IT, głównie aplikacji webowych. Prowadzę działalność gospodarczą i poszukuję nowych projektów.",
       "contactmessage": "Have a project for me? Think I'd be a good fit for your team? I'd love to hear from you, give me a shout by email or by using the form below if you'd like to get in contact with me.",
       "email": "p.nowecki@gmail.com",
+      "place": "Warszawa, Polska",
       "phone": "791893867",
       "menu": [
         {
@@ -50,6 +54,7 @@
         "country": "Polska"
       },
       "website": "https://pawel-dev5.github.io/",
+      "resumebuttontext": "Zobacz CV",
       "resumedownload": "https://drive.google.com/file/d/1lxdlStYPmAqSzIvYhrrF1oxdPFWg7S0C/view?usp=sharing",
       "social": [
         {
@@ -309,6 +314,8 @@
   },
   "EN": {
     "main": {
+      "title": "About me",
+      "subtitle": "Contact details",
       "icon": "./images/pl.png",
       "name": "Paweł Nowecki",
       "occupation": "Junior Frontend Developer",
@@ -316,10 +323,12 @@
       "employer": "Hagen Agency",
       "jobDescription": "Senior Account Executive",
       "image": "profilepic.jpg",
-      "bio": "I am Junior Frontend Developer, currently working in Hagen Agency where i work as Senior Account Executive when managing IT projects, mainly web applications. I'm looking for new projects and cooperations.\nPrivately, I am passionate about rock climbing and alpine climbing both in summer and winter. I am also interested in football, new technologies and automotive.",
+      "biowork": "I am Junior Frontend Developer, currently working in Hagen Agency where i work as Senior Account Executive when managing IT projects, mainly web applications. I'm looking for new projects and cooperations.",
+      "biopriv": "Privately, I am passionate about rock climbing and alpine climbing both in summer and winter. I am also interested in football, new technologies and automotive.",
       "shortBio": "I am Junior Frontend Developer, currently working in Hagen Agency where i work as Senior Account Executive when managing IT projects, mainly web applications. I'm looking for new projects and cooperations.",
       "contactmessage": "Have a project for me? Think I'd be a good fit for your team? I'd love to hear from you, give me a shout by email or by using the form below if you'd like to get in contact with me.",
       "email": "p.nowecki@gmail.com",
+      "place": "Warsaw, Poland",
       "phone": "791893867",
       "menu": [
         {
@@ -358,6 +367,7 @@
         "country": "Polska"
       },
       "website": "https://pawel-dev5.github.io/",
+      "resumebuttontext": "Watch CV",
       "resumedownload": "https://drive.google.com/file/d/1lxdlStYPmAqSzIvYhrrF1oxdPFWg7S0C/view?usp=sharing",
       "social": [
         {

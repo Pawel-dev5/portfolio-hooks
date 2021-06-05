@@ -1,0 +1,45 @@
+.aboutimg-box {
+  width: 30%;
+  img {
+    border-radius: 20%;
+    max-width: 80%;
+  }
+}
+.abouttxt-box {
+  width: 70%;
+}
+.about-me {
+  padding: 80px 20px 80px 20px;
+  h3 {
+    font-weight: 600;
+  }
+  p, a {
+    line-height: 30px;
+    color: #7a7a7a;
+  }
+  div {
+    div {
+      text-align: left;
+    }
+  }
+}
+
+.details-container {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+.contact-details-box {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: flex-start;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  p {
+    margin: 0;
+  }
+  a {
+      color: $background2;
+      text-decoration: none;
+  }
+}
