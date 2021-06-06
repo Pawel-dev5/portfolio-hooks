@@ -317,36 +317,6 @@
             "image": "react.jpg"
           },
           {
-            "name": "Git",
-            "description": "",
-            "image": "git.jpg"
-          },
-          {
-            "name": "Sass",
-            "description": "",
-            "image": "sass.png"
-          },
-          {
-            "name": "Webpack",
-            "description": "",
-            "image": "webpack.png"
-          },
-          {
-            "name": "Node JS",
-            "description": "",
-            "image": "node.jpg"
-          },
-          {
-            "name": "Firebase",
-            "description": "",
-            "image": "firebase.png"
-          },
-          {
-            "name": "Jira",
-            "description": "",
-            "image": "jira.png"
-          },
-          {
             "name": "Wordpress",
             "description": "",
             "image": "worepress.png"
@@ -362,14 +332,44 @@
             "image": "api.jpg"
           },
           {
+            "name": "Git",
+            "description": "",
+            "image": "git.jpg"
+          },
+          {
+            "name": "Sass",
+            "description": "",
+            "image": "sass.png"
+          },
+          {
+            "name": "Firebase",
+            "description": "",
+            "image": "firebase.png"
+          },
+          {
             "name": "Analytics",
             "description": "",
             "image": "analytics.png"
           },
           {
+            "name": "Jira",
+            "description": "",
+            "image": "jira.png"
+          },
+          {
             "name": "Trello",
             "description": "",
             "image": "trello.jpg"
+          },
+          {
+            "name": "Webpack",
+            "description": "",
+            "image": "webpack.png"
+          },
+          {
+            "name": "Node JS",
+            "description": "",
+            "image": "node.jpg"
           }
         ]
       }
@@ -788,36 +788,6 @@
             "image": "react.jpg"
           },
           {
-            "name": "Git",
-            "description": "",
-            "image": "git.jpg"
-          },
-          {
-            "name": "Sass",
-            "description": "",
-            "image": "sass.png"
-          },
-          {
-            "name": "Webpack",
-            "description": "",
-            "image": "webpack.png"
-          },
-          {
-            "name": "Node JS",
-            "description": "",
-            "image": "node.jpg"
-          },
-          {
-            "name": "Firebase",
-            "description": "",
-            "image": "firebase.png"
-          },
-          {
-            "name": "Jira",
-            "description": "",
-            "image": "jira.png"
-          },
-          {
             "name": "Wordpress",
             "description": "",
             "image": "worepress.png"
@@ -833,14 +803,44 @@
             "image": "api.jpg"
           },
           {
+            "name": "Git",
+            "description": "",
+            "image": "git.jpg"
+          },
+          {
+            "name": "Sass",
+            "description": "",
+            "image": "sass.png"
+          },
+          {
+            "name": "Firebase",
+            "description": "",
+            "image": "firebase.png"
+          },
+          {
             "name": "Analytics",
             "description": "",
             "image": "analytics.png"
           },
           {
+            "name": "Jira",
+            "description": "",
+            "image": "jira.png"
+          },
+          {
             "name": "Trello",
             "description": "",
             "image": "trello.jpg"
+          },
+          {
+            "name": "Webpack",
+            "description": "",
+            "image": "webpack.png"
+          },
+          {
+            "name": "Node JS",
+            "description": "",
+            "image": "node.jpg"
           }
         ]
       }

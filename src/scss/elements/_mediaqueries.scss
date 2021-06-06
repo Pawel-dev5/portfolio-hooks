@@ -12,6 +12,9 @@
   .details-container {
     display: flex;
   }
+  .header-container {
+    max-width: 770px !important;
+  }
 }
 @media (max-width: 426px) {
   .details-container {
@@ -42,5 +45,32 @@
   }
   .about-me {
     padding: 125px 30px 50px 30px;
+  }
+  .work-box {
+    text-align: center;
+    .row > div:nth-child(1) {
+      margin-bottom: $h1-padding;
+    }
+  }
+  .abouttxt-box {
+    text-align: left;
+  }
+  .headet-txt-box {
+    width: 85%;
+    > h3 {
+      padding: 0.5% 5% 0.5% 5%;
+    }
+  }
+  .header-container {
+    min-height: 100%;
+  }
+  .scrolldown {
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+  .navbar-nav {
+      a {
+        padding-top: $h1-padding / 8;
+      }
   }
 }

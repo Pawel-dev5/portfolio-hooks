@@ -18,9 +18,19 @@ export const Menu = (props) => {
             expand="lg"
         >
             <Container className="menu-container">
+                <ScrollLink
+                    className="smoothscroll"
+                    smooth={true}
+                    duration={100}
+                    to="about-me"
+                    className="d-block d-lg-none"
+                >
+                    Paweł Nowecki
+                </ScrollLink>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Navbar.Collapse id="responsive-navbar-nav">
-
+                <Navbar.Collapse 
+                id="responsive-navbar-nav"
+                >
                     <Nav className="me-auto">
                         {data.menu.map((item, id) => {
                             return (

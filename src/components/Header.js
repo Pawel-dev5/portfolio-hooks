@@ -15,7 +15,7 @@ export const Header = (props) => {
                     <Col >
                         <div className="headet-txt-box">
                             <h1 className="responsive-headline">{data.name}</h1>
-                            <h4>{data.shortBio}</h4>
+                            <h3>{data.shortBio}</h3>
                             <hr />
                             <ul className="social">
                                 {data.social.map((item, index) => {

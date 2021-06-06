@@ -1,23 +1,23 @@
 .aboutimg-box {
-  width: 30%;
   img {
     border-radius: 20%;
     max-width: 80%;
   }
 }
-.abouttxt-box {
-  width: 70%;
-}
 .about-me {
-  padding: 125px 30px 80px 30px;
+  padding-top: $h1-padding * 2;
+  padding-left: $h1-padding;
+  padding-right: $h1-padding;
+  padding-bottom: $h1-padding * 2;
   text-align: center;
-  h1{
-      margin-bottom: 7%;
+  h1 {
+    margin-bottom: $h1-padding;
   }
   h3 {
     font-weight: 600;
   }
-  p, a {
+  p,
+  a {
     line-height: 30px;
     color: #7a7a7a;
   }
@@ -34,7 +34,7 @@
   display: flex;
 }
 .contact-button-box {
-    padding-left: 0 !important;
+  padding-left: 0 !important;
 }
 .contact-details-box {
   display: flex;
@@ -47,7 +47,10 @@
     margin: 0;
   }
   a {
-      color: $background2;
-      text-decoration: none;
+    color: $background2;
+    text-decoration: none;
   }
+}
+.newline {
+    line-height: 22px;
 }

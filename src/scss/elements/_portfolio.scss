@@ -29,11 +29,12 @@
    -webkit-flex-direction: column;
    flex-direction: column;
    h1{
-     margin-top: 7%;
+     margin-top: $h1-padding * 2;
+     text-align: center;
    }
  }
  .portfolio-container .btn-group {
-   margin: 30px;
+   margin: $h1-padding;
  }
  .portfolio-container h3 {
    margin-top: 40px;
