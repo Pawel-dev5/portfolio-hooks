@@ -7,6 +7,7 @@ import { Portfolio } from './components/Portfolio';
 import { Header } from './components/Header';
 import { Tech } from './components/Tech';
 import { AboutMe } from './components/AboutMe';
+import { Work } from './components/Work';
 
 const API = './resumeData.json';
 
@@ -56,8 +57,9 @@ function App() {
       <Menu className="container" data={translateData.main} toggleLang={toggleLang} />
       <Header data={translateData.main} />
       <AboutMe  data={translateData.main}/>
-      <Tech data={translateData.resume} />
+      <Work  data={translateData.resume} lang={lang}/>
       <Portfolio data={translateData.portfolio} />
+      <Tech data={translateData.resume} />
       <Footer className="container" data={translateData} />
     </div>
   )

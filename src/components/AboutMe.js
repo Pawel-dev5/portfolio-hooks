@@ -8,11 +8,13 @@ export const AboutMe = (props) => {
         data
     } = props;
 
-    console.log(data)
     const image = 'images/' + data.image;
 
     return (
         <section className="about-me">
+            <Container>
+                <h1>{data.title}</h1>
+            </Container>
             <Container>
                 <Row className="justify-content-md-center">
                     <Col 
@@ -23,7 +25,7 @@ export const AboutMe = (props) => {
                         <img src={image} alt={data.name} />
                     </Col>
                     <Col md="auto" lg="7" className="abouttxt-box">
-                        <h3>{data.title}</h3>
+                        {/* <h3>{data.title}</h3> */}
                         <p>{data.biowork}</p>
                         <p>{data.biopriv}</p>
                         <Container className="details-container">

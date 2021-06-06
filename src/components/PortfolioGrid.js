@@ -19,15 +19,15 @@ export const PortfolioGrid = (props) => {
                         <Col className="portfolio-box">
                             {dataa.map((pro, index) => {
                                 const projectImage = 'images/portfolio/' + pro.image;
-                                const i = index + .1;
+                                // const i = index + .1;
                                 const j = index + 100.1;
                                 const g = j * 2.5;
                                 if (pro.length !== 0) {
                                     return (
                                         <>
-                                            {pro.category.filter(p => p.includes(filters)).map(() => (
-                                                <div key={i}>
-                                                    <Container className="portfolio-item" key={j}>
+                                            {pro.category.filter(p => p.includes(filters)).map((index) => (
+                                                <div key={index}>
+                                                    <Container className="portfolio-item" key={index}>
                                                         <Row className="item-wrap card">
                                                             <Col>
                                                                 <a href={pro.url} title={pro.title} target="_blank" rel="noopener noreferrer">

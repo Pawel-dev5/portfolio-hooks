@@ -21,7 +21,7 @@ export const Portfolio = (props) => {
       <Container id="portfolio">
         <Row>
           <Col className="portfolio-container">
-            <h3>{data.title}</h3>
+            <h1>{data.title}</h1>
             <div className="btn-group portfolio-buttons" role="group" aria-label="Basic example">
               <Button type="button" className="btn btn-secondary" onClick={filterAll}>All</Button>
               <Button type="button" className="btn btn-secondary" onClick={filterReact}>React</Button>

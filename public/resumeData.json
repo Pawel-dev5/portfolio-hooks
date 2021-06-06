@@ -75,8 +75,10 @@
       ]
     },
     "resume": {
-      "skillmessage1": "I'm a tinkerer and am always interested in playing around with new technologies but these are the ones that have really won me over",
-      "skillmessage": "...",
+      "title": "Praca i edukacja",
+      "edutitle": "EDUKACJA",
+      "certtitle": "CERTYFIKATY",
+      "worktitle": "PRACA",
       "education": [
         {
           "school": "Uczelnia Łazarskiego",
@@ -87,22 +89,106 @@
       ],
       "certificates": [
         {
-          "company": "JavaScript developer: React",
-          "title": "Coders Lab",
+          "title": "JavaScript developer: React",
+          "company": "Coders Lab",
           "years": "Wrzesień 2020",
-          "description": "JavaScript \nReact \nReactHooks\nReact router\nJSX\nES6\nJSON server\nAPI\nFetch\nState Klasowo\nBabel\nBootstrap\nFirebase\nWebpack\nSass\nRWD\nSystem kontroli wersji GIT \nHTML i CSS \nGulp\nNPM i Node JS\nMailing\nAnimacje CSS\nObsługa linuxa"
+          "description": [
+            {
+              "title": "JavaScript"
+            },
+            {
+              "title": "React"
+            },
+            {
+              "title": "ReactHooks"
+            },
+            {
+              "title": "React router"
+            },
+            {
+              "title": "JSX"
+            },
+            {
+              "title": "ES6"
+            },
+            {
+              "title": "Fetch"
+            },
+            {
+              "title": "REST API"
+            },
+            {
+              "title": "Babel"
+            },
+            {
+              "title": "Bootstrap"
+            },
+            {
+              "title": "Firebase"
+            },
+            {
+              "title": "Webpack"
+            },
+            {
+              "title": "Sass"
+            },
+            {
+              "title": "RWD"
+            },
+            {
+              "title": "System kontroli wersji GIT"
+            },
+            {
+              "title": "HTML i CSS"
+            },
+            {
+              "title": "Gulp"
+            },
+            {
+              "title": "NPM i Node JS"
+            },
+            {
+              "title": "Mailing"
+            },
+            {
+              "title": "Animacje CSS"
+            },
+            {
+              "title": "Obsługa linux"
+            }
+          ]
         },
         {
-          "company": "Scrum Master",
-          "title": "Coders Lab",
+          "title": "Scrum Master",
+          "company": "Coders Lab",
           "years": "Wrzesień 2020",
-          "description": "Scrum\nAgile\nGitHub\nGitflow\nTrello\nJira"
+          "description": [
+            {
+              "title": "Scrum"
+            },
+            {
+              "title": "Agile"
+            },
+            {
+              "title": "GitHub"
+            },
+            {
+              "title": "Trello"
+            },
+            {
+              "title": "Jira"
+            }
+          ]
         },
         {
-          "company": "TOEIC English B2 Certificate",
-          "title": "Educational Testing Service (ETS) Global BV Sp. z o.o",
+          "title": "TOEIC English B2 Certificate",
+          "company": "Educational Testing Service (ETS) Global BV Sp. z o.o",
           "years": "Maj 2017",
-          "description": ""
+          "description": [
+            {
+              "title": ""
+            }
+          ]
         }
       ],
       "work": [
@@ -110,35 +196,105 @@
           "company": "Senior Account Executive",
           "title": "Agencja Hagen, Warszawa",
           "years": "05.2021 - obecnie",
-          "description": "Zarządzanie i realizacja projektów aplikacji webowych dla:\nBNP Paribas\nHouse of Skills"
+          "description": [
+            {
+              "subtitle": "Zarządzanie i realizacja projektów aplikacji webowychn między innymi dla",
+              "title": "BNP Paribas"
+            },
+            {
+              "title": "House of Skills"
+            }
+          ]
         },
         {
           "company": "Account Executive",
           "title": "Agencja Hagen, Warszawa",
           "years": "11.2019 - 04.2021",
-          "description": "Zarządzanie i realizacja projektów aplikacji webowych dla:\nBNP Paribas\nHouse of Skills\nMeetfaces"
+          "description": [
+            {
+              "subtitle": "Zarządzanie i realizacja projektów aplikacji webowychn między innymi dla",
+              "title": "BNP Paribas"
+            },
+            {
+              "title": "House of Skills"
+            }
+          ]
         },
         {
           "company": "Account Executive",
           "title": "Wisefriends, Warszawa",
+          "subtitle": "Zarządzanie i realizacja projektów aplikacji webowychn między innymi dla",
           "years": "04.2019 - 10.2019",
-          "description": "Zarządzanie i realizacja projektów aplikacji webowych dla:\nEurocash\nOrange\nAdidas\nCoty\nEssilor\nOpel\nReprise Digital"
+          "description": [
+            {
+              "subtitle": "Zarządzanie i realizacja projektów aplikacji webowychn między innymi dla",
+              "title": "Eurocash, "
+            },
+            {
+              "title": "Orange,"
+            },
+            {
+              "title": "Adidas"
+            },
+            {
+              "title": "Coty"
+            },
+            {
+              "title": "Essilor,"
+            },
+            {
+              "title": "Opel"
+            },
+            {
+              "title": "Reprise Digital"
+            }
+          ]
         },
         {
           "company": "Account Executive",
           "title": "Mint Media, Warszawa",
+          "subtitle": "Zarządzanie i realizacja projektów aplikacji webowychn między innymi dla",
           "years": "08.2019 - 09.2019",
-          "description": "Zarządzanie i realizacja projektów aplikacji webowych dla:\nPhilips\nMaspex\nCukiernia Sowa\nMillo Home"
+          "description": [
+            {
+              "subtitle": "Zarządzanie i realizacja projektów aplikacji webowychn między innymi dla",
+              "title": "Philips, "
+            },
+            {
+              "title": "Maspex,"
+            },
+            {
+              "title": "Cukiernia Sowa,"
+            },
+            {
+              "title": "Millo Home"
+            }
+          ]
         },
         {
           "company": "Junior Account Executive",
+          "subtitle": "Zarządzanie i realizacja projektów aplikacji webowychn między innymi dla",
           "title": "Wisefriends, Warszawa",
           "years": "01.2017 - 03.2019",
-          "description": "Zarządzanie i realizacja projektów aplikacji webowych dla:\nOrange\nCoty\nGeberit\nPhilip Morris Internacional IQOS"
+          "description": [
+            {
+              "subtitle": "Zarządzanie i realizacja projektów aplikacji webowychn między innymi dla",
+              "title": "Orange, "
+            },
+            {
+              "title": "Coty,"
+            },
+            {
+              "title": "Geberit,"
+            },
+            {
+              "title": "Philip Morris Internacional IQOS"
+            }
+          ]
         }
       ],
       "skills": {
-        "title": "Technologie",
+        "title": "TECHNOLOGIE",
         "items": [
           {
             "name": "HTML5",
@@ -388,8 +544,10 @@
       ]
     },
     "resume": {
-      "skillmessage1": "I'm a tinkerer and am always interested in playing around with new technologies but these are the ones that have really won me over",
-      "skillmessage": "...",
+      "title": "Work and education",
+      "edutitle": "EDUCATION",
+      "certtitle": "CERTIFICATES",
+      "worktitle": "WORK",
       "education": [
         {
           "school": "Uczelnia Łazarskiego",
@@ -400,58 +558,214 @@
       ],
       "certificates": [
         {
-          "company": "JavaScript developer: React",
-          "title": "Coders Lab",
+          "title": "JavaScript developer: React",
+          "company": "Coders Lab",
           "years": "Wrzesień 2020",
-          "description": "JavaScript \nReact \nReactHooks\nReact router\nJSX\nES6\nJSON server\nAPI\nFetch\nState Klasowo\nBabel\nBootstrap\nFirebase\nWebpack\nSass\nRWD\nSystem kontroli wersji GIT \nHTML i CSS \nGulp\nNPM i Node JS\nMailing\nAnimacje CSS\nObsługa linuxa"
+          "description": [
+            {
+              "title": "JavaScript"
+            },
+            {
+              "title": "React"
+            },
+            {
+              "title": "ReactHooks"
+            },
+            {
+              "title": "React router"
+            },
+            {
+              "title": "JSX"
+            },
+            {
+              "title": "ES6"
+            },
+            {
+              "title": "Fetch"
+            },
+            {
+              "title": "REST API"
+            },
+            {
+              "title": "Babel"
+            },
+            {
+              "title": "Bootstrap"
+            },
+            {
+              "title": "Firebase"
+            },
+            {
+              "title": "Webpack"
+            },
+            {
+              "title": "Sass"
+            },
+            {
+              "title": "RWD"
+            },
+            {
+              "title": "System kontroli wersji GIT"
+            },
+            {
+              "title": "HTML i CSS"
+            },
+            {
+              "title": "Gulp"
+            },
+            {
+              "title": "NPM i Node JS"
+            },
+            {
+              "title": "Mailing"
+            },
+            {
+              "title": "Animacje CSS"
+            },
+            {
+              "title": "Obsługa linux"
+            }
+          ]
         },
         {
-          "company": "Scrum Master",
-          "title": "Coders Lab",
+          "title": "Scrum Master",
+          "company": "Coders Lab",
           "years": "Wrzesień 2020",
-          "description": "Scrum\nAgile\nGitHub\nGitflow\nTrello\nJira"
+          "description": [
+            {
+              "title": "Scrum"
+            },
+            {
+              "title": "Agile"
+            },
+            {
+              "title": "GitHub"
+            },
+            {
+              "title": "Trello"
+            },
+            {
+              "title": "Jira"
+            }
+          ]
         },
         {
-          "company": "TOEIC English B2 Certificate",
-          "title": "Educational Testing Service (ETS) Global BV Sp. z o.o",
+          "title": "TOEIC English B2 Certificate",
+          "company": "Educational Testing Service (ETS) Global BV Sp. z o.o",
           "years": "Maj 2017",
-          "description": ""
+          "description": [
+            {
+              "title": ""
+            }
+          ]
         }
       ],
       "work": [
         {
           "company": "Senior Account Executive",
           "title": "Agencja Hagen, Warszawa",
-          "years": "05.2021 - obecnie",
-          "description": "Zarządzanie i realizacja projektów aplikacji webowych dla:\nBNP Paribas\nHouse of Skills"
+          "subtitle": "Management and implementation of web application projects, among others for ",
+          "years": "05.2021 - now",
+          "description": [
+            {
+              "subtitle": "Zarządzanie i realizacja projektów aplikacji webowychn między innymi dla",
+              "title": "BNP Paribas"
+            },
+            {
+              "title": "House of Skills"
+            }
+          ]
         },
         {
           "company": "Account Executive",
           "title": "Agencja Hagen, Warszawa",
+          "subtitle": "Management and implementation of web application projects, among others for ",
           "years": "11.2019 - 04.2021",
-          "description": "Zarządzanie i realizacja projektów aplikacji webowych dla:\nBNP Paribas\nHouse of Skills\nMeetfaces"
+          "description": [
+            {
+              "subtitle": "Zarządzanie i realizacja projektów aplikacji webowychn między innymi dla",
+              "title": "BNP Paribas"
+            },
+            {
+              "title": "House of Skills"
+            }
+          ]
         },
         {
           "company": "Account Executive",
           "title": "Wisefriends, Warszawa",
+          "subtitle": "Management and implementation of web application projects, among others for ",
           "years": "04.2019 - 10.2019",
-          "description": "Zarządzanie i realizacja projektów aplikacji webowych dla:\nEurocash\nOrange\nAdidas\nCoty\nEssilor\nOpel\nReprise Digital"
+          "description": [
+            {
+              "subtitle": "Zarządzanie i realizacja projektów aplikacji webowychn między innymi dla",
+              "title": "Eurocash, "
+            },
+            {
+              "title": "Orange,"
+            },
+            {
+              "title": "Adidas"
+            },
+            {
+              "title": "Coty"
+            },
+            {
+              "title": "Essilor,"
+            },
+            {
+              "title": "Opel"
+            },
+            {
+              "title": "Reprise Digital"
+            }
+          ]
         },
         {
           "company": "Account Executive",
           "title": "Mint Media, Warszawa",
+          "subtitle": "Management and implementation of web application projects, among others for ",
           "years": "08.2019 - 09.2019",
-          "description": "Zarządzanie i realizacja projektów aplikacji webowych dla:\nPhilips\nMaspex\nCukiernia Sowa\nMillo Home"
+          "description": [
+            {
+              "subtitle": "Zarządzanie i realizacja projektów aplikacji webowychn między innymi dla",
+              "title": "Philips, "
+            },
+            {
+              "title": "Maspex,"
+            },
+            {
+              "title": "Cukiernia Sowa,"
+            },
+            {
+              "title": "Millo Home"
+            }
+          ]
         },
         {
           "company": "Junior Account Executive",
+          "subtitle": "Management and implementation of web application projects, among others for ",
           "title": "Wisefriends, Warszawa",
           "years": "01.2017 - 03.2019",
-          "description": "Zarządzanie i realizacja projektów aplikacji webowych dla:\nOrange\nCoty\nGeberit\nPhilip Morris Internacional IQOS"
+          "description": [
+            {
+              "subtitle": "Zarządzanie i realizacja projektów aplikacji webowychn między innymi dla",
+              "title": "Orange, "
+            },
+            {
+              "title": "Coty,"
+            },
+            {
+              "title": "Geberit,"
+            },
+            {
+              "title": "Philip Morris Internacional IQOS"
+            }
+          ]
         }
       ],
       "skills": {
-        "title": "Technologies",
+        "title": "TECHNOLOGIES",
         "items": [
           {
             "name": "HTML5",

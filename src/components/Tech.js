@@ -26,7 +26,7 @@ export const Tech = (props) => {
     } = props;
     return (
         <section className="tech">
-            <h3>{data.skills.title}</h3>
+            <h1>{data.skills.title}</h1>
             <Carousel
                 ssr
                 partialVisible

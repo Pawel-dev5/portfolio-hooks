@@ -10,9 +10,9 @@ export const Header = (props) => {
     } = props;
     return (
         <section id="home">
-            <Container fluid lg className="header-container container-lg" >
-                <Row lg>
-                    <Col lg>
+            <Container className="header-container container-lg" >
+                <Row >
+                    <Col >
                         <div className="headet-txt-box">
                             <h1 className="responsive-headline">{data.name}</h1>
                             <h4>{data.shortBio}</h4>
