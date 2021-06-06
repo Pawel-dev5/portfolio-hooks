@@ -9,7 +9,6 @@ export const Menu = (props) => {
         toggleLang
     } = props;
     const ScrollLink = Scroll.Link;
-
     return (
         <Navbar
             bg="light"
@@ -25,11 +24,11 @@ export const Menu = (props) => {
                     to="about-me"
                     className="d-block d-lg-none"
                 >
-                    Paweł Nowecki
+                    {data.name}
                 </ScrollLink>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Navbar.Collapse 
-                id="responsive-navbar-nav"
+                <Navbar.Collapse
+                    id="responsive-navbar-nav"
                 >
                     <Nav className="me-auto">
                         {data.menu.map((item, id) => {

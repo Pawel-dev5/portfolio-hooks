@@ -58,17 +58,17 @@
       "resumedownload": "https://drive.google.com/file/d/1lxdlStYPmAqSzIvYhrrF1oxdPFWg7S0C/view?usp=sharing",
       "social": [
         {
-          "name": "github",
+          "name": "Github",
           "url": "https://github.com/Pawel-dev5/",
           "icon": "faGithub"
         },
         {
-          "name": "linkedin",
+          "name": "LinkedIn",
           "url": "https://www.linkedin.com/in/pawe%C5%82-nowecki/",
           "icon": "faCoffee"
         },
         {
-          "name": "facebook",
+          "name": "Facebook",
           "url": "http://facebook.com/p.nowecki",
           "icon": "faCoffee"
         }

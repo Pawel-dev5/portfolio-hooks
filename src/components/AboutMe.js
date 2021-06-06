@@ -9,7 +9,7 @@ export const AboutMe = (props) => {
     } = props;
 
     const image = 'images/' + data.image;
-
+    console.log(data)
     return (
         <section className="about-me">
             <Container>
@@ -17,11 +17,11 @@ export const AboutMe = (props) => {
             </Container>
             <Container>
                 <Row className="justify-content-md-center">
-                    <Col 
-                    xs 
-                    lg="2"
-                    className="aboutimg-box d-none d-lg-block"
-                     >
+                    <Col
+                        xs
+                        lg="2"
+                        className="aboutimg-box d-none d-lg-block"
+                    >
                         <img src={image} alt={data.name} />
                     </Col>
                     <Col md="auto" lg="7" className="abouttxt-box">
@@ -32,6 +32,7 @@ export const AboutMe = (props) => {
                             <Container className="contact-button-box">
                                 <Button
                                     variant="outline-light"
+                                    href={data.resumedownload}
                                 >
                                     {data.resumebuttontext}
                                 </Button>

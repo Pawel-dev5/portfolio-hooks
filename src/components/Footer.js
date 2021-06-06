@@ -5,7 +5,7 @@ import { ContactForm } from './ContactForm';
 import Scroll from "react-scroll";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronUp, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
-import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { useEffect, useState } from 'react';
 
 export const Footer = (data) => {

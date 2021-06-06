@@ -37,6 +37,7 @@ footer {
   text-align: center;
   div {
     margin-top: $h1-padding;
+    margin-bottom: $h1-padding;
     text-align: center;
   }
   p > a {
@@ -54,6 +55,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  h4 {
+    font-size: 2rem;
+    }
   div {
     display: flex;
     flex-direction: column;
