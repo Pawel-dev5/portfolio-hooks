@@ -1,11 +1,12 @@
 form {
   max-width: 600px;
+  color: $background2;
 }
 div[role="alert"] {
   color: red;
 }
 .message-chars-left {
-  width: 320px;
+  width: auto;
   margin: auto;
   text-align: left;
 }
@@ -17,4 +18,27 @@ div[role="alert"] {
   align-items: center;
   -webkit-justify-content: center;
   justify-content: center;
+  margin-bottom: $h1-padding * 2;
+}
+.form-group {
+  margin-top: $h1-padding / 3;
+}
+.captcha-box {
+  margin-top: $h1-padding / 3;
+}
+#formBasicText::placeholder,
+.form-group > input::placeholder,
+.form-group > textarea::placeholder {
+  color: $background2;
+}
+input,
+textarea {
+  color: $background2 !important;
+  border: 0 !important;
+  border-bottom: 1px solid #ced4da !important;
+  background-color: $background1 !important;
+  border-radius: 0 !important;
+}
+.form-control {
+  padding-left: 0 !important;
 }

@@ -43,6 +43,13 @@
   .captcha-box {
     max-width: 100%;
   }
+  .captcha-box > div > div > div > iframe,
+  .captcha-box > div > div > div,
+  .captcha-box > div > div,
+  .captcha-box > div,
+  .captcha-box {
+    width: 100%;
+  }
   .about-me {
     padding: 125px 30px 50px 30px;
   }
@@ -69,8 +76,26 @@
     margin-bottom: 10px;
   }
   .navbar-nav {
-      a {
-        padding-top: $h1-padding / 8;
-      }
+    a {
+      padding-top: $h1-padding / 8;
+    }
+  }
+  .active {
+    right: 40px;
+  }
+  .contact-details-box {
+    text-align: center;
+  }
+  #contact-form {
+    h4 {
+      text-align: center;
+      margin-top: $h1-padding;
+    }
+  }
+  .btn-primary {
+    width: 100%;
+  }
+  .copyright > div {
+    margin-top: 0;
   }
 }

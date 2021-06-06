@@ -46,6 +46,7 @@ function App() {
       });
   }, []);
 
+  console.log(error)
   if (translateData.length === 0) {
     return (
       <div className="loader-container">
@@ -56,8 +57,8 @@ function App() {
     <div className="App">
       <Menu className="container" data={translateData.main} toggleLang={toggleLang} />
       <Header data={translateData.main} />
-      <AboutMe  data={translateData.main}/>
-      <Work  data={translateData.resume} lang={lang}/>
+      <AboutMe data={translateData.main} />
+      <Work data={translateData.resume} />
       <Portfolio data={translateData.portfolio} />
       <Tech data={translateData.resume} />
       <Footer className="container" data={translateData} />

@@ -5,6 +5,9 @@ import { Button } from "react-bootstrap";
 import ReCAPTCHA from 'react-google-recaptcha';
 import { useForm } from 'react-hook-form';
 import { init, sendForm } from 'emailjs-com';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 const serviceID = process.env.REACT_APP_SERVICE_ID;
 const templateID = process.env.REACT_APP_TAMPLATE_ID;
@@ -74,65 +77,70 @@ export const ContactForm = (data) => {
   const messageCharsLeft = 500 - message.length;
 
   return (
-    <div className="form-container" id="contact">
+    <Container id="contact" className="form-container">
+      <Row>
+        <Col>
+          <Form id='contact-form' onSubmit={handleSubmit(onSubmit)} action="?" method="POST">
+            <input type='hidden' name='contact_number' value={contactNumber} />
+            <h4 className='status-message'>{footTitle}</h4>
+            <p className='status-message'>{statusMessage}</p>
+            <div className="label-box" >
+              <Form.Group controlId="formBasicText">
+                {/* <Form.Label>{footerText.name}</Form.Label> */}
+                <Form.Control
+                  type="text"
+                  name='name'
+                  placeholder={footerText.name}
+                  maxLength='30'
+                  {...register('name', { required: true })}
+                />
+                {errors.name && !errors.name.type === "required" && (
+                  <div role="alert">Imię jest wymagane, uzupełnij poniższe pole<br /></div>
+                )}
+                {errors.name && errors.name.type === "required" && <div role="alert">Imię jest wymagane, uzupełnij poniższe pole<br /></div>}
+                <p className='message-chars-left'>{nameCharsLeft}</p>
 
-      <Form id='contact-form' onSubmit={handleSubmit(onSubmit)} action="?" method="POST">
-        <input type='hidden' name='contact_number' value={contactNumber} />
-        <p className='status-message'>{footTitle}</p>
-        <p className='status-message'>{statusMessage}</p>
-        <div className="label-box" >
-          <Form.Group controlId="formBasicText">
-            <Form.Label>{footerText.name}</Form.Label>
-            <Form.Control
-              type="text"
-              name='name'
-              placeholder={footerText.name}
-              maxLength='30'
-              {...register('name', { required: true })}
+              </Form.Group>
+              <Form.Group controlId="formBasicEmail">
+                {/* <Form.Label>{footerText.email}</Form.Label> */}
+                <Form.Control
+                  type="email"
+                  name='user_email'
+                  placeholder={footerText.email}
+                  maxLength='30'
+                  {...register('user_email', { required: true })}
+                />
+                {errors.user_email && errors.user_email.type === "required" && (
+                  <div role="alert">Email jest wymagany, uzupełnij poniższe pole<br /></div>
+                )}
+              </Form.Group>
+            </div>
+            <Form.Group controlId="exampleForm.ControlTextarea1">
+              {/* <Form.Label>{footerText.formessage}</Form.Label> */}
+              <Form.Control
+                as="textarea"
+                rows={3}
+                name='message'
+                placeholder={footerText.formessage}
+                // ref={register()}
+                maxLength='500'
+                {...register('message')}
+
+              />
+              <p className='message-chars-left'>{messageCharsLeft}</p>
+            </Form.Group>
+            <ReCAPTCHA
+              className="captcha-box"
+              sitekey={CaptchaKey}
+            // onChange={onChange}
             />
-            {errors.name && !errors.name.type === "required" && (
-              <div role="alert">Imię jest wymagane, uzupełnij poniższe pole<br /></div>
-            )}
-            {errors.name && errors.name.type === "required" && <div role="alert">Imię jest wymagane, uzupełnij poniższe pole<br /></div>}
-            <p className='message-chars-left'>{nameCharsLeft}</p>
+            <Button variant="primary" type="submit" value='Send'>{footerText.send}</Button>
+          </Form>
 
-          </Form.Group>
-          <Form.Group controlId="formBasicEmail">
-            <Form.Label>{footerText.email}</Form.Label>
-            <Form.Control
-              type="email"
-              name='user_email'
-              placeholder={footerText.email}
-              maxLength='30'
-              {...register('user_email', { required: true })}
-            />
-            {errors.user_email && errors.user_email.type === "required" && (
-              <div role="alert">Email jest wymagany, uzupełnij poniższe pole<br /></div>
-            )}
-          </Form.Group>
-        </div>
-        <Form.Group controlId="exampleForm.ControlTextarea1">
-          <Form.Label>{footerText.formessage}</Form.Label>
-          <Form.Control
-            as="textarea"
-            rows={3}
-            name='message'
-            placeholder={footerText.formessage}
-            // ref={register()}
-            maxLength='500'
-            {...register('message')}
+        </Col>
+      </Row>
+    </Container>
 
-          />
-          <p className='message-chars-left'>{messageCharsLeft}</p>
-        </Form.Group>
-        <ReCAPTCHA
-        className="captcha-box"
-          sitekey={CaptchaKey}
-        // onChange={onChange}
-        />
-        <Button variant="primary" type="submit" value='Send'>{footerText.send}</Button>
-      </Form>
-    </div>
 
   )
 }

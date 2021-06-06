@@ -4,12 +4,9 @@ import Col from 'react-bootstrap/Col';
 
 export const Work = (props) => {
     const {
-        data,
-        lang
+        data
     } = props;
 
-    // console.log(data)
-    // console.log(lang)
     if (data.length !== 0) {
         return (
             <section className="work">

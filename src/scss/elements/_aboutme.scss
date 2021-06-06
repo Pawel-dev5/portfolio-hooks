@@ -36,21 +36,6 @@
 .contact-button-box {
   padding-left: 0 !important;
 }
-.contact-details-box {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  align-items: flex-start;
-  margin-left: 0 !important;
-  padding-left: 0 !important;
-  p {
-    margin: 0;
-  }
-  a {
-    color: $background2;
-    text-decoration: none;
-  }
-}
 .newline {
     line-height: 22px;
 }

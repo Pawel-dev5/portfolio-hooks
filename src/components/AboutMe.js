@@ -29,13 +29,6 @@ export const AboutMe = (props) => {
                         <p>{data.biowork}</p>
                         <p>{data.biopriv}</p>
                         <Container className="details-container">
-                            <Container className="contact-details-box">
-                                <h3>{data.subtitle}</h3>
-                                <p>{data.name}</p>
-                                <p>{data.place}</p>
-                                <a href="tel:791-893-867">{data.phone}</a>
-                                <a href="mailto:p.nowecki@gmail.com">{data.email}</a>
-                            </Container>
                             <Container className="contact-button-box">
                                 <Button
                                     variant="outline-light"

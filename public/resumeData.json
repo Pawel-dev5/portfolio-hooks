@@ -11,7 +11,7 @@
       "jobDescription": "Senior Account Executive",
       "image": "profilepic.jpg",
       "biowork": "Jestem Junior Frontend Developerem, obecnie zatrudniony w Agencji Hagen gdzie pracuje jako Senior Account Executive przy zarządzaniu projektami IT, głównie aplikacji webowych. Prowadzę działalność gospodarczą i poszukuję nowych projektów.",
-      "biopriv": "Prywatniejestem pasjonatem wspinania skałkowego i wysokogórskiego, zarówno latem jak i zimą. Interesuję się również piłką nożną, nowymi technologiami oraz motoryzacją.",
+      "biopriv": "Prywatnie jestem pasjonatem wspinania skałkowego i wysokogórskiego, zarówno latem jak i zimą. Interesuję się również piłką nożną, nowymi technologiami oraz motoryzacją.",
       "shortBio": "Jestem Junior Frontend Developerem, obecnie zatrudniony w Agencji Hagen gdzie pracuje jako Senior Account Executive przy zarządzaniu projektami IT, głównie aplikacji webowych. Prowadzę działalność gospodarczą i poszukuję nowych projektów.",
       "contactmessage": "Have a project for me? Think I'd be a good fit for your team? I'd love to hear from you, give me a shout by email or by using the form below if you'd like to get in contact with me.",
       "email": "p.nowecki@gmail.com",
@@ -461,6 +461,7 @@
       ]
     },
     "footer": {
+      "sectiontitle": "KONTAKT",
       "title": "Skontaktuj się ze mną wypełniając formularz!",
       "name": "Imię",
       "email": "Adres email",
@@ -923,6 +924,7 @@
       ]
     },
     "footer": {
+      "sectiontitle": "CONTACT",
       "title": "Contact with me!",
       "name": "Name",
       "email": "Email adress",
