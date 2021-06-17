@@ -18,7 +18,7 @@ function App() {
   const [lang, setLang] = useState({
     PL: true
   });
-
+  console.log(data)
   const toggleLang = () => {
     setLang((prevState) => ({
       ...prevState,
@@ -28,6 +28,7 @@ function App() {
       return setTranslateData(data.EN)
     } else setTranslateData(data.PL)
   }
+
   useEffect(() => {
     fetch(`${API}`)
       .then(resp => resp.json())

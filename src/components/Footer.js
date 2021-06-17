@@ -20,7 +20,7 @@ export const Footer = (data) => {
     })
 
     const footerData = data.data;
-    console.log(footerData.main.social[0].name)
+    // console.log(footerData.main.social[0].name)
     if (footerData) {
         return (
             <footer>

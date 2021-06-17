@@ -9,7 +9,7 @@ export const AboutMe = (props) => {
     } = props;
 
     const image = 'images/' + data.image;
-    console.log(data)
+    // console.log(data)
     return (
         <section className="about-me">
             <Container>
