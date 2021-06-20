@@ -8,6 +8,7 @@ import { Header } from './components/Header';
 import { Tech } from './components/Tech';
 import { AboutMe } from './components/AboutMe';
 import { Work } from './components/Work';
+import { Test } from './components/Test';
 
 const API = './resumeData.json';
 
@@ -47,16 +48,17 @@ function App() {
       });
   }, []);
 
-  console.log(error)
+  // console.log(error)
   if (translateData.length === 0) {
     return (
       <div className="loader-container">
-        <div className="loader"></div>
+        <div className="loader">{error}</div>
       </div>
     );
   } else return (
     <div className="App">
       <Menu className="container" data={translateData.main} toggleLang={toggleLang} />
+      <Test />
       <Header data={translateData.main} />
       <AboutMe data={translateData.main} />
       <Work data={translateData.resume} />
