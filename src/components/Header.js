@@ -11,7 +11,6 @@ export const Header = (props) => {
     const {
         data
     } = props;
-    // console.log(data)
     return (
         <section id="home">
             <Container className="header-container container-lg" >

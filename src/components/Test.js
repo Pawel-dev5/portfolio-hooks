@@ -1,7 +1,7 @@
 
+import { useState, useEffect } from 'react';
 import firebase from 'firebase/app'
 import 'firebase/database';
-import { useState, useEffect } from 'react';
 
 const firebaseConfig = {
     apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
@@ -18,36 +18,28 @@ if (!firebase.apps.length) {
     firebase.initializeApp(firebaseConfig);
 }
 
-export const Test = () => {
+ const Test = () => {
     const [data, setData] = useState([]);
     useEffect(() => {
         const ref = firebase.database().ref();
         ref.on("value", snapshot => {
-            // const array = {};
-            // For each data in the entry
-            // snapshot.forEach(el => {
-            // Push the object to the array
-            // If you also need to store the unique key from firebase,
-            // You can use array.push({ ...el.val(), key: el.key });
-            // array.push(el.val());
-            // setData(el.val())
             setData(snapshot.val())
-            // });
-            // setData(array);
         });
         // Clean-up function
         return () => ref.off("value");
     }, []);
 
     console.log(data)
-    if (data.length !== 0) {
-        return (
-            <h1>{data.PL.main.title}</h1>
-        );
+    // if (data.length !== 0) {
+    //     return (
+    //         <h1>{data.PL.main.title}</h1>
+    //     );
 
-    } else return (
-        <div className="loader-container">
-            <div className="loader"></div>
-        </div>
-    )
+    // } else return (
+    //     <div className="loader-container">
+    //         <div className="loader"></div>
+    //     </div>
+    // )
+    return data
 }
+export default Test;

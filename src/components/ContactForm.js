@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Form } from "react-bootstrap";
 import { Button } from "react-bootstrap";
-// import  ReCaptcha from 'react-recaptcha';
 import ReCAPTCHA from 'react-google-recaptcha';
 import { useForm } from 'react-hook-form';
 import { init, sendForm } from 'emailjs-com';
@@ -27,9 +26,6 @@ export const ContactForm = (data) => {
   const [contactNumber, setContactNumber] = useState("000000");
   const footerText = data.data.footer;
   const footTitle = footerText.title;
-  // console.log(footTitle)
-  // console.log(footerText)
-  // console.log(errors)
 
   const generateContactNumber = () => {
     const numStr = "000000" + (Math.random() * 1000000 | 0);
@@ -66,10 +62,6 @@ export const ContactForm = (data) => {
 
   };
 
-  // const onChange = (value) => {
-  //     console.log("Recaptcha Value:", value)
-  // }
-
   const name = watch('name') || "";
   const nameCharsLeft = 30 - name.length;
 
@@ -86,7 +78,6 @@ export const ContactForm = (data) => {
             <p className='status-message'>{statusMessage}</p>
             <div className="label-box" >
               <Form.Group controlId="formBasicText">
-                {/* <Form.Label>{footerText.name}</Form.Label> */}
                 <Form.Control
                   type="text"
                   name='name'
@@ -99,10 +90,8 @@ export const ContactForm = (data) => {
                 )}
                 {errors.name && errors.name.type === "required" && <div role="alert">Imię jest wymagane, uzupełnij poniższe pole<br /></div>}
                 <p className='message-chars-left'>{nameCharsLeft}</p>
-
               </Form.Group>
               <Form.Group controlId="formBasicEmail">
-                {/* <Form.Label>{footerText.email}</Form.Label> */}
                 <Form.Control
                   type="email"
                   name='user_email'
@@ -116,27 +105,22 @@ export const ContactForm = (data) => {
               </Form.Group>
             </div>
             <Form.Group controlId="exampleForm.ControlTextarea1">
-              {/* <Form.Label>{footerText.formessage}</Form.Label> */}
               <Form.Control
                 as="textarea"
                 rows={3}
                 name='message'
                 placeholder={footerText.formessage}
-                // ref={register()}
                 maxLength='500'
                 {...register('message')}
-
               />
               <p className='message-chars-left'>{messageCharsLeft}</p>
             </Form.Group>
             <ReCAPTCHA
               className="captcha-box"
               sitekey={CaptchaKey}
-            // onChange={onChange}
             />
             <Button variant="primary" type="submit" value='Send'>{footerText.send}</Button>
           </Form>
-
         </Col>
       </Row>
     </Container>

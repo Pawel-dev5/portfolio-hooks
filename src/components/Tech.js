@@ -1,9 +1,6 @@
 import React from 'react';
 import Carousel from "react-multi-carousel";
 import 'react-multi-carousel/lib/styles.css';
-// import Container from 'react-bootstrap/Container';
-// import Row from 'react-bootstrap/Row';
-// import Col from 'react-bootstrap/Col';
 
 const responsive = {
     desktop: {
@@ -49,6 +46,5 @@ export const Tech = (props) => {
                 })}
             </Carousel>
         </section>
-
     )
 }
