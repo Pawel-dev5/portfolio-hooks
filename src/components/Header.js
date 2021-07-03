@@ -7,10 +7,7 @@ import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const ScrollLink = Scroll.Link;
-export const Header = (props) => {
-    const {
-        data
-    } = props;
+export const Header = ({data}) => {
     return (
         <section id="home">
             <Container className="header-container container-lg" >

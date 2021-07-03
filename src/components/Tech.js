@@ -17,10 +17,7 @@ const responsive = {
     }
 };
 
-export const Tech = (props) => {
-    const {
-        data
-    } = props;
+export const Tech = ({data}) => {
     return (
         <section className="tech">
             <h1>{data.skills.title}</h1>

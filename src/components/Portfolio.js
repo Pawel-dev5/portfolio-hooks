@@ -17,6 +17,10 @@ export const Portfolio = ({ data }) => {
   const indexOfLastPost = currentPage * postPerPage;
   const indexOfFirstPost = indexOfLastPost - postPerPage;
   const currentPosts = posts.projects.slice(indexOfFirstPost, indexOfLastPost);
+  // console.log(currentPosts)
+  // const filt = currentPosts.filter(p => p.category.map(i => i) === filters)
+  // const filt = currentPosts.filter((p, index) => p.category.includes(filters))
+  // console.log(filt)
 
   // Change page
   const paginate = (pageNumber) => setCurrentPage(pageNumber);

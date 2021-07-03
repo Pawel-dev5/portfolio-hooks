@@ -3,10 +3,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 
-export const AboutMe = (props) => {
-    const {
-        data
-    } = props;
+export const AboutMe = ({data}) => {
     const image = 'images/' + data.image;
     return (
         <section className="about-me">
