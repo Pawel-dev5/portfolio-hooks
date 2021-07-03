@@ -14,9 +14,9 @@ export const Pagination = ({ postPerPage, totalPosts, paginate, currentPage }) =
                             key={number}
                             className={currentPage === number ? 'page-item-active page-item' : 'page-item'}
                         >
-                            <a onClick={() => paginate(number)} htef='!$' className='page-link'>
+                            <button onClick={() => paginate(number)} className='page-link'>
                                 {number}
-                            </a>
+                            </button>
                         </li>
                     )
                 })}

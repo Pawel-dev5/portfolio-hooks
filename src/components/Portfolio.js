@@ -8,19 +8,13 @@ import { Pagination } from './Pagination';
 
 export const Portfolio = ({ data }) => {
   const [filters, setFilters] = useState("all");
-
-  const [posts, setPosts] = useState(data);
   const [currentPage, setCurrentPage] = useState(1);
   const [postPerPage, setPostPerPage] = useState(6);
 
-  // GET current projects
+  // Get current projects with category filter
   const indexOfLastPost = currentPage * postPerPage;
   const indexOfFirstPost = indexOfLastPost - postPerPage;
-  const currentPosts = posts.projects.slice(indexOfFirstPost, indexOfLastPost);
-  // console.log(currentPosts)
-  // const filt = currentPosts.filter(p => p.category.map(i => i) === filters)
-  // const filt = currentPosts.filter((p, index) => p.category.includes(filters))
-  // console.log(filt)
+  const currentPosts = data.projects.slice(indexOfFirstPost, indexOfLastPost).filter(project => project.category.map(cat => cat).includes(filters));
 
   // Change page
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
@@ -39,14 +33,14 @@ export const Portfolio = ({ data }) => {
             </div>
             <div id="portfolio-wrapper" className="container-box col-sm">
               <PortfolioGrid
-                filters={filters}
                 data={currentPosts}
               />
               <Pagination
                 postPerPage={postPerPage}
-                totalPosts={posts.projects.length}
+                totalPosts={data.projects.length}
                 paginate={paginate}
                 currentPage={currentPage}
+                setPostPerPage={setPostPerPage}
               />
             </div>
           </Col>

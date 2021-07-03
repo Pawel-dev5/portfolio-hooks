@@ -2,8 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-export const Work = ({data}) => {
-
+export const Work = ({ data }) => {
     return (
         <section className="work">
             <Container>
@@ -11,10 +10,7 @@ export const Work = ({data}) => {
             </Container>
             <Container className="work-box">
                 <Row className="justify-content-md-center">
-                    <Col
-                        xs
-                        lg="3"
-                    >
+                    <Col xs lg="3">
                         <h3>
                             <span>
                                 {data.certtitle}
@@ -44,10 +40,7 @@ export const Work = ({data}) => {
             </Container>
             <Container className="work-box">
                 <Row className="justify-content-md-center">
-                    <Col
-                        xs
-                        lg="3"
-                    >
+                    <Col xs lg="3">
                         <h3>
                             <span>
                                 {data.worktitle}
@@ -81,10 +74,7 @@ export const Work = ({data}) => {
             </Container>
             <Container className="work-box">
                 <Row className="justify-content-md-center">
-                    <Col
-                        xs
-                        lg="3"
-                    >
+                    <Col xs lg="3">
                         <h3>
                             <span>
                                 {data.edutitle}

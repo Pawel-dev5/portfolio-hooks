@@ -3,11 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Scroll from "react-scroll";
 import Container from 'react-bootstrap/Container';
 
-export const Menu = (props) => {
-    const {
-        data,
-        toggleLang
-    } = props;
+export const Menu = ({ data, toggleLang }) => {
     const ScrollLink = Scroll.Link;
     return (
         <Navbar
