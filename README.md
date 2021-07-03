@@ -1,16 +1,16 @@
 ## Used libraries
 
-    bootstrap,.\
-    emailjs-com,.\
-    gulp,.\
-    gulp-sourcemaps,.\
-    create-react-app,.\
-    react-google-recaptcha,.\
-    react-hook-form,.\
-    react-scripts,.\
-    react-scroll,.\
-    react multi carousel,.\
-    hooks.\
+    bootstrap,
+    emailjs-com,
+    gulp,
+    gulp-sourcemaps,
+    create-react-app,
+    react-google-recaptcha,
+    react-hook-form,
+    react-scripts,
+    react-scroll,
+    react multi carousel,
+    hooks
 
 ## To working google firebase you must create .env.local/.env file in project folder with data like below:
 
