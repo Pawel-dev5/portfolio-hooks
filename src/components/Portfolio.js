@@ -11,12 +11,12 @@ export const Portfolio = ({ data }) => {
   const [currentPage, setCurrentPage] = useState(1);
   const [postPerPage, setPostPerPage] = useState(6);
 
-  // Get current projects with category filter
+  // Get current projects to pagination with category filter
   const indexOfLastPost = currentPage * postPerPage;
   const indexOfFirstPost = indexOfLastPost - postPerPage;
-  const currentPosts = data.projects.slice(indexOfFirstPost, indexOfLastPost).filter(project => project.category.map(cat => cat).includes(filters));
-
-  // Change page
+  const currentPosts = data.projects.filter(project => project.category.map(cat => cat).includes(filters)).slice(indexOfFirstPost, indexOfLastPost);
+  console.log(currentPosts)
+  // Change pagination page
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
   return (
@@ -32,16 +32,16 @@ export const Portfolio = ({ data }) => {
               <Button type="button" className="btn btn-secondary" onClick={() => setFilters("others")}>Inne</Button>
             </div>
             <div id="portfolio-wrapper" className="container-box col-sm">
-              <PortfolioGrid
-                data={currentPosts}
-              />
-              <Pagination
-                postPerPage={postPerPage}
-                totalPosts={data.projects.length}
-                paginate={paginate}
-                currentPage={currentPage}
-                setPostPerPage={setPostPerPage}
-              />
+              <PortfolioGrid data={currentPosts} />
+              {/* {currentPosts.length >= 4 ? ( */}
+                <Pagination
+                  postPerPage={postPerPage}
+                  totalPosts={data.projects.length}
+                  paginate={paginate}
+                  currentPage={currentPage}
+                  setPostPerPage={setPostPerPage}
+                />
+              {/* // ) : ('')} */}
             </div>
           </Col>
         </Row>

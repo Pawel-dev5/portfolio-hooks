@@ -1,15 +1,31 @@
 ## Used libraries
-    bootstrap,
-    emailjs-com,
-    gulp,
-    gulp-sourcemaps,
-    create-react-app,
-    react-google-recaptcha,
-    react-hook-form,
-    react-scripts,
-    react-scroll,
-    react multi carousel,
-    hooks
+
+    bootstrap,.\
+    emailjs-com,.\
+    gulp,.\
+    gulp-sourcemaps,.\
+    create-react-app,.\
+    react-google-recaptcha,.\
+    react-hook-form,.\
+    react-scripts,.\
+    react-scroll,.\
+    react multi carousel,.\
+    hooks.\
+
+## To working google firebase you must create .env.local/.env file in project folder with data like below:
+
+REACT_APP_USER_ID="your key".\
+REACT_APP_SERVICE_ID="your key".\
+REACT_APP_TAMPLATE_ID="your key".\
+REACT_APP_CAPTCHA_KEY="your key".\
+REACT_APP_FIREBASE_API_KEY="your key".\
+REACT_APP_FIREBASE_AUTH_DOMAIN="your key".\
+REACT_APP_FIREBASE_DATABASE_URL="your key".\
+REACT_APP_FIREBASE_PROJECT_ID="your key".\
+REACT_APP_FIREBASE_STORAGE_BUCKET="your key".\
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID="your key".\
+REACT_APP_FIREBASE_APP_ID=1:"your key".\
+REACT_APP_FIREBASE_MEASURMENT_ID="your key".\
 
 # Getting Started with Create React App
 
