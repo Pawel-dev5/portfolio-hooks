@@ -32,9 +32,38 @@
     margin-top: $h1-padding * 2;
     text-align: center;
   }
-}
-.portfolio-container .btn-group {
-  margin: $h1-padding;
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: $h1-padding;
+    margin-bottom: $h1-padding / 2;
+    nav,
+    nav > ul,
+    nav > ul > li {
+      margin: 0;
+      padding: 0;
+    }
+    .pagination {
+      margin-top: -15px;
+    }
+    li {
+      padding-right: 0;
+      button {
+        border: 0;
+      }
+    }
+    nav {
+      margin: 0;
+      padding: 0;
+    }
+  }
+  .btn-group,
+  button {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
 }
 .portfolio-container h3 {
   margin-top: 40px;

@@ -29,6 +29,31 @@
       margin-bottom: 10px;
     }
   }
+  .headet-txt-box {
+    h1 {
+      font-size: 35px;
+    }
+    h3 {
+      font-size: 18px;
+    }
+    div {
+      margin: 0;
+      padding: 0;
+      a {
+        margin-left: 5px;
+        margin-right: 5px;
+        .icon-footer {
+          margin: 1px;
+        }
+      }
+    }
+  }
+  .portfolio-container > div {
+    flex-direction: column;
+    nav {
+      margin-right: 0;
+    }
+  }
   .portfolio-buttons {
     margin-left: 0 !important;
     margin-right: 0 !important;

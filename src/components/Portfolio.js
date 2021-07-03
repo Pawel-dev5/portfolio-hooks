@@ -3,7 +3,6 @@ import { PortfolioGrid } from "./PortfolioGrid";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Button from 'react-bootstrap/Button';
 import { Pagination } from './Pagination';
 
 export const Portfolio = ({ data }) => {
@@ -15,9 +14,15 @@ export const Portfolio = ({ data }) => {
   const indexOfLastPost = currentPage * postPerPage;
   const indexOfFirstPost = indexOfLastPost - postPerPage;
   const currentPosts = data.projects.filter(project => project.category.map(cat => cat).includes(filters)).slice(indexOfFirstPost, indexOfLastPost);
-  console.log(currentPosts)
+
   // Change pagination page
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
+
+  // Category filters changins also setting currenr page = 1
+  function catChange(e) {
+    setCurrentPage('1')
+    setFilters(e.target.value)
+  }
 
   return (
     <section id="portfolio">
@@ -25,15 +30,32 @@ export const Portfolio = ({ data }) => {
         <Row>
           <Col className="portfolio-container">
             <h1>{data.title}</h1>
-            <div className="btn-group portfolio-buttons" role="group" aria-label="Basic example">
-              <Button type="button" className="btn btn-secondary" onClick={() => setFilters("all")}>All</Button>
-              <Button type="button" className="btn btn-secondary" onClick={() => setFilters("react")}>React</Button>
-              <Button type="button" className="btn btn-secondary" onClick={() => setFilters("wordpress")}>Wordpress</Button>
-              <Button type="button" className="btn btn-secondary" onClick={() => setFilters("others")}>Inne</Button>
-            </div>
-            <div id="portfolio-wrapper" className="container-box col-sm">
-              <PortfolioGrid data={currentPosts} />
-              {/* {currentPosts.length >= 4 ? ( */}
+            <div>
+              <nav>
+                <ul className='pagination'>
+                  <li className={filters === "all" ? 'page-item-active page-item' : 'page-item'}>
+                    <button className='page-link' onClick={catChange} value='all' name='all'>
+                      All
+                    </button>
+                  </li>
+                  <li className={filters === "react" ? 'page-item-active page-item' : 'page-item'}>
+                    <button className='page-link' onClick={catChange} value='react' name='react'>
+                      React
+                    </button>
+                  </li>
+                  <li className={filters === "wordpress" ? 'page-item-active page-item' : 'page-item'}>
+                    <button className='page-link' onClick={catChange} value='wordpress' name='wordpress'>
+                      Wordpress
+                    </button>
+                  </li>
+                  <li className={filters === "others" ? 'page-item-active page-item' : 'page-item'}>
+                    <button className='page-link' onClick={catChange} value='others' name='others'>
+                      Inne
+                    </button>
+                  </li>
+                </ul>
+              </nav>
+              {filters === "all" ? (
                 <Pagination
                   postPerPage={postPerPage}
                   totalPosts={data.projects.length}
@@ -41,8 +63,13 @@ export const Portfolio = ({ data }) => {
                   currentPage={currentPage}
                   setPostPerPage={setPostPerPage}
                 />
-              {/* // ) : ('')} */}
+              ) : ('')}
             </div>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <PortfolioGrid data={currentPosts} />
           </Col>
         </Row>
       </Container>

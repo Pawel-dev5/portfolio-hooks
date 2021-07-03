@@ -4,7 +4,6 @@ export const Pagination = ({ postPerPage, totalPosts, paginate, currentPage }) =
     for (let i = 1; i <= Math.ceil(totalPosts / postPerPage); i++) {
         pageNumber.push(i)
     }
-
     return (
         <nav>
             <ul className='pagination'>
