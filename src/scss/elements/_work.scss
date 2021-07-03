@@ -29,6 +29,9 @@
   }
 }
 .abouttxt-box {
+  > div:not(:first-child) {
+    margin-top: $h1-padding;
+  }
   h1 {
     margin-bottom: 0;
     margin-top: 20px;
@@ -48,7 +51,7 @@ details > summary {
   }
 }
 .work-box {
-    margin-bottom: 48px;
-    padding-bottom: 24px;
-    border-bottom: 1px solid #E8E8E8;
+  margin-bottom: 48px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e8e8e8;
 }
