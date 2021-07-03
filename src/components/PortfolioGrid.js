@@ -1,25 +1,26 @@
-import React from "react";
 import Button from "react-bootstrap/Button";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faEye } from '@fortawesome/free-solid-svg-icons';
 
 export const PortfolioGrid = (props) => {
     const {
-        portfolio,
+        data,
         filters
     } = props;
-    const dataa = portfolio.projects;
 
     return (
         <>
             <Container>
                 <Row>
                     <Col className="portfolio-box">
-                        {dataa.map((pro, index) => {
+                        {data.map((pro, index) => {
                             const projectImage = 'images/portfolio/' + pro.image;
                             return (
-                                <>
+                                <div key={index}>
                                     {pro.category.filter((p, index) => p.includes(filters)).map((i) => (
                                         <div key={i}>
                                             <Container className="portfolio-item">
@@ -41,21 +42,20 @@ export const PortfolioGrid = (props) => {
                                                 <Row>
                                                     <Col className="btn-port-box">
                                                         <Button className="button-portfolio" href={pro.git} target="_blank" rel="noopener noreferrer">
-                                                            {/* <i className="fa fa-github portfolio-icons"></i> */}
-                                                            GIT
+                                                            <FontAwesomeIcon icon={faGithub} />
                                                         </Button>
                                                     </Col>
                                                     <Col className="btn-port-box">
                                                         <Button className="button-portfolio" href={pro.url} target="_blank" rel="noopener noreferrer" >
-                                                            {/* <i className="fa fa-eye portfolio-icons"></i> */}
-                                                            LIVE
+                                                            <FontAwesomeIcon icon={faEye} />
                                                         </Button>
                                                     </Col>
                                                 </Row>
                                             </Container>
                                         </div>
-                                    ))}
-                                </>
+                                    )
+                                    )}
+                                </div>
                             )
                         })
                         }

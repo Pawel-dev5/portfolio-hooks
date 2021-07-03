@@ -23,23 +23,18 @@ export const Header = (props) => {
                             <Container>
                                 <a href="tel:791-893-867">
                                     <FontAwesomeIcon className="icon-footer" icon={faPhone} />
-                                    {/* {data.phone} */}
                                 </a>
                                 <a href="mailto:p.nowecki@gmail.com">
                                     <FontAwesomeIcon className="icon-footer" icon={faEnvelope} />
-                                    {/* {data.email} */}
                                 </a>
                                 <a href={data.social[0].url}>
                                     <FontAwesomeIcon className="icon-footer" icon={faGithub} />
-                                    {/* {data.social[0].name} */}
                                 </a>
                                 <a href={data.social[1].url}>
                                     <FontAwesomeIcon className="icon-footer" icon={faLinkedin} />
-                                    {/* {data.social[1].name} */}
                                 </a>
                                 <a href={data.social[2].url}>
                                     <FontAwesomeIcon className="icon-footer" icon={faFacebook} />
-                                    {/* {data.social[2].name} */}
                                 </a>
                             </Container>
                         </div>
