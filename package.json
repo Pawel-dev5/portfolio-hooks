@@ -34,7 +34,7 @@
     "tar": "^6.1.6",
     "trim-newlines": "^3.0.1",
     "web-vitals": "^1.1.2",
-    "ws": "^6.2.1"
+    "ws": "^6.2.2"
   },
   "scripts": {
     "start": "react-scripts start",
