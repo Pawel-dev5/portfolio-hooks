@@ -55,7 +55,7 @@ export const Portfolio = ({ data }) => {
                   </li>
                 </ul>
               </nav>
-              {filters === "all" ? (
+              {filters === "react" || filters ==='all' ? (
                 <Pagination
                   postPerPage={postPerPage}
                   totalPosts={data.projects.length}
