@@ -5053,6 +5053,12 @@ fast-levenshtein@^2.0.6, fast-levenshtein@~2.0.6:
   version "2.0.6"
   resolved "https://registry.npmjs.org/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz"
 
+fast-xml-parser@^3.19.0:
+  version "3.21.1"
+  resolved "https://registry.yarnpkg.com/fast-xml-parser/-/fast-xml-parser-3.21.1.tgz#152a1d51d445380f7046b304672dd55d15c9e736"
+  dependencies:
+    strnum "^1.0.4"
+
 fastq@^1.6.0:
   version "1.10.1"
   resolved "https://registry.npmjs.org/fastq/-/fastq-1.10.1.tgz"
@@ -6405,6 +6411,12 @@ is-svg@^3.0.0:
   resolved "https://registry.npmjs.org/is-svg/-/is-svg-3.0.0.tgz"
   dependencies:
     html-comment-regex "^1.1.0"
+
+is-svg@^4.3.0:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/is-svg/-/is-svg-4.3.0.tgz#3e46a45dcdb2780e42a3c8538154d7f7bfc07216"
+  dependencies:
+    fast-xml-parser "^3.19.0"
 
 is-symbol@^1.0.2:
   version "1.0.3"
@@ -10697,6 +10709,10 @@ strip-indent@^3.0.0:
 strip-json-comments@^3.1.0, strip-json-comments@^3.1.1:
   version "3.1.1"
   resolved "https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-3.1.1.tgz"
+
+strnum@^1.0.4:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/strnum/-/strnum-1.0.5.tgz#5c4e829fe15ad4ff0d20c3db5ac97b73c9b072db"
 
 style-loader@1.3.0:
   version "1.3.0"
